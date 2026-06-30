@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2063432747432268259",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "one popular theory is that research paper alpha* and lab publishing ~died when researchers realized that instead of fighting with marketing depts they could simply walk out the door and get >$100m for their legally protected tacit knowledge gained\n\ncalifornia non-noncompetes have a bigger impact on knowledge spreading than github, arxiv, and huggingface combined\n\n*btw this is a motivator for me to set up @aidotengineer as a product-centric industry conference to complement the paper-centric research conferences"
+  },
+  {
+    "id": "2062408623565984209",
+    "isQuote": true,
+    "handle": "_catwu",
+    "text": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation! https://t.co/sMPtM0GscN"
+  },
+  {
+    "id": "2061924300698091760",
+    "isQuote": true,
+    "handle": "zarazhangrui",
+    "text": "From OpenAI's latest Codex report:\n\"Knowledge workers now represent about 20% of Codex users and are adopting it more than 3 times as fast as developers\n\nThe fastest growing task types for knowledge workers are: Data Analysis (110% growth week over week); Research (+37%), and Knowledge Artifacts (+36%)\""
+  },
+  {
+    "id": "2062033620773306763",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "The best founders treat the following as a necessary component of their business but NOT the entire business..\n\n> AI / timing / why now\n> Funding\n> Distribution / hype\n> Market\n> Product\n> Revenue\n\nI’m seeing too many pitches that are touting only one of these as the core reason to invest. \n\nThe bar has frankly never been higher (see the seed - A gap) and you really need to be able to explain how you’re capturing at least multiple of these in a unique way that’ll be hard for others to copy. \n\nEspecially in overcrowded categories. Otherwise, it gets very hard for the other side (aka VC) to make a case for their own partners to write the check. \n\nAnd, founders often get frustrated because their businesses are strong. Stronger than they have ever been in the past. Why can’t people just write the check? Like why do I need to waste time fundraising? It’s because like it or not the levels do keep going up. Narrative matters, ambition matters and try to understand the opportunity cost has also never been higher on the other side. If you’re profitable and don’t need capital, then who cares. And you don’t need to optimize for VCs but you DO need to give them a reason to believe. \n\nSo, keep your bar high. Find a capital partner that still has conviction and deserves equity in your company. But, please take those ten extra minutes to communicate your long term ambition, because that might be the only small difference between you and the next round."
+  },
+  {
+    "id": "2069992268963135897",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "Claude Design is pretty great. \n\nI gave it a repo for a mobile app I'm building and it reproduced the screens perfectly.\n\nExcept after one prompt it's telling me to save tokens already 😅 https://t.co/k6hQ53zmFN"
+  },
+  {
+    "id": "2068701356358308112",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "I think one underestimated thing when we look back on it was how useful it is to have your own personal brain and company brain in 2026 at the dawn of usable AGI\n\nAGI gives you the intelligence\n\nYou still have to collect your personal context to get the real unlock"
+  },
+  {
+    "id": "2068923768500793603",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "A good rule of thumb for preventing AI slop (in writing, design, etc):\n\nIs your input (the context) longer than the output? \n\nI've found that for the AI to produce quality results, my input is often 3-5 times the length of the output.\n\nIf your input is much shorter than the output, it's almost certainly going to produce slop"
+  },
+  {
+    "id": "2068411894185295969",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "I will go against the grain and say I can barely use up my Codex and Claude $200 subscriptions so I don’t see the point of trying local models…\n\nAlso to try the latest glm locally requires 512 mb which is like a $10K Max Studio?"
+  },
+  {
+    "id": "2067636692794875923",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. \n\nThe same anti-prosperity bloc spent the year trying to ban startup acquisitions, blocking the only exit 85% of founders ever get. \n\nThis is a war on building startups in America. https://t.co/zwYL1wlLHO"
+  },
+  {
+    "id": "2067700226669060207",
+    "isQuote": true,
+    "handle": "bcherny",
+    "text": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboards I share with the team. They are a game changer for how I work with Claude. Can't wait to hear what you think!"
+  },
+  {
+    "id": "2067830061009633294",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Launched a side project quietly a few weeks ago.. \n\nWanted to test how many impressions/clicks I could get by simply having Claude Code / Codex optimize the hell out of the website.\n\nGot it to about 16k impressions, and 94 clicks over the last 28 days. Not bad eh?\n\nNo backlinks, no mention of this website anywhere on my socials, no Reddit hacking - simply old school SEO/GEO optimization. \n\nOfficial launch soon - parents will like this one 🍩"
+  },
+  {
+    "id": "2066567117562868009",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "v0 commits to shipping the best skills by default. \n\nOur goal is to give you the equivalent of a @vercel product engineer like @shuding and @shadcn on each prompt.\n\nBut you can also now grab any skill from https://t.co/pYz1Gn97jD or add your team’s private set. https://t.co/s2tHUBYNC4"
+  },
+  {
+    "id": "2065964446489710939",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and jailbreak AI models, and by definition they would share that research with the government given that’s whole point. I don’t think Amazon assumed this would be the next move. https://t.co/DizjwNcaLG"
+  },
+  {
+    "id": "2064825302359150870",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "It seems like most startups in San Francisco are selling products to each other\n\nWhen I ask founders who their target audience is, 90% of the time it's \"engineering and product teams, AI-native startups\"\n\nFeels like the same small group of target audience is being bombarded with a million products, whereas very few people are building for the 99% of the world"
+  },
+  {
+    "id": "2064046368352825492",
+    "isQuote": true,
+    "handle": "joshwoodward",
+    "text": "The new killer NotebookLM feature: easily being able to expand your search beyond your own source files\n\nThen, with today's update, you can also make new output formats: PDFs, DOCX, XLSX, PPTX, charts, etc.\n\nWe want NotebookLM to keep helping you do better research https://t.co/4TCw7tQ2GV"
+  },
+  {
+    "id": "2063263389238087745",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "A Walk In The Park (part II) feat @taiuti 🌎\n\n(00:00) 👋\n(01:10) What world models are\n(03:42) Origin story from text-to-3D to @reactorworld \n(09:22) Deciding to start the company\n(11:22) GTA, games, and the path into programming\n(15:09) Building in stealth and keeping secrets\n(18:32) Picking investors with independent conviction\n(21:43) Where world models will grow first\n(26:08) Why low latency matters\n(29:34) Becoming CEO and scaling the team\n(32:23) Final advice"
+  },
+  {
+    "id": "2062199585322529108",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "▲ + ❄️ \n\nGenerating frontends on top of your business data is one of the killer apps of coding AI. \n\nThe genie is out of the bottle. Never going back to clunky and rigid dashboards.\n\n@vercel already ran on Snowflake. But with @v0 and @nextjs, we’re now getting 1000x the value. https://t.co/INVGZ3CgsW"
+  },
+  {
+    "id": "2062352329903665471",
+    "isQuote": false,
+    "handle": "ryolu_",
+    "text": "Cursor is hiring design engineers.\n\nlooking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks excited to build the tools that help designers, engineers, and agents ship quality code.\n\nknow someone? tag them or DM me 📧"
+  },
+  {
+    "id": "2062220049146876347",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Ben kept getting distracted during long Claude Code sessions, so he built a miniature Clawd to get his attention. When \nClaude Code needs input, a solenoid inside the aluminum body pushes it upward. In other words, it jumps up and down. https://t.co/hugzPTTnSw"
+  },
+  {
+    "id": "2061809689973944724",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Conductor has the distinct edge of being an IDE born for coding agents. An ADE if you will.\n\nAgents will take remote dev mainstream. At most large and sensitive organizations, “local” isn’t a thing. But this future wasn’t evenly distributed.\n\nExcited to power their Sandbox! https://t.co/CdNkKGlNcD https://t.co/EcGjsS6tBN"
+  },
+  {
+    "id": "2061907538741006796",
+    "isQuote": true,
+    "handle": "trq212",
+    "text": "Workflows are the biggest upgrade to Claude Code’s capabilities since skills and subagents.\n\nI dove deep into it with @sidbid to figure out best practices, examples and more.  I’m particularly excited about the non-technical tasks it enables for Claude Code. https://t.co/cL24rmjrie"
+  },
+  {
+    "id": "2061175114184736792",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "You all just don't get it. \n\nIf you want to win and I mean really win you have to:\n\n1. Work 997 \n996 is for losers\n\n2. Tokenmax \nIf you're not spending more on tokens than your company's entire human headcount budget, are you even AI native?\n\n3. Sleep in the office\nThink about how many more agents you can spin up with that $4,000 monthly SF rent.\n\n4. Be on Forbes 30 under 30\nIf you're over 30 and didn't make this list, I hate to say it but it's over for you.\n\n5. Try not to end up in jail\nMight be hard if you do 4."
+  },
+  {
+    "id": "2068568650924409260",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something."
+  },
+  {
+    "id": "2061533386296963464",
+    "isQuote": false,
+    "handle": "mattturck",
+    "text": "CEO: “we have tens of thousands of AI agents running in production at massive scale right now”\n\nCTO: https://t.co/eulDCgxkNQ"
+  },
+  {
+    "id": "2062332963636060313",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on https://t.co/tN74yJZsfd https://t.co/hCSzh2JkKa"
+  },
+  {
+    "id": "2060930334620053998",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "My guess is:\n- OpenAI Codex dank memes\n- Anthropic essays https://t.co/tSoVhzeBLA"
+  },
+  {
+    "id": "2069864073202905501",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "LOTS of alpha in this pod:\n\n- Why Databricks beat Snowflake (! a straight answer!)\n- Why everyone is building a metaharness now\n- Why the @neondatabase made so much sense (so much @nikitabase glazing its not even funny)\n- How LTAP solves the HTAP dream I discussed with @ankrgyl in our @braintrust pod\n- What happened to @MosaicML + DBRX\n- How to maintain research/startup culture in a $175B megacorp\n- What's more important knowledge/experience in the race to the agent cloud: databases, operating systems, or.... networking!\n\nvery honored to be invited to @Data_AI_Summit to interview two of the top people in our industry and somehow be able to jam on everything from the @bennstancil modern data stack theme to @alighodsi's amazing keynote aura"
+  },
+  {
+    "id": "2069474420113146355",
+    "isQuote": true,
+    "handle": "garrytan",
+    "text": "Linzumi is Codex but actually multiplayer. It’s magical for teams. \n\nAlso Sean Grove was on the team at OpenAI that greatly reduced sycophancy in ChatGPT before he left to start this YC startup! https://t.co/uShBOGz3tV"
+  },
+  {
+    "id": "2065416181943865611",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "Everyone thinks AI coding tools set founders free.\n\nWatch what people actually build with them: rules, approvals, process, layers. The same cage, assembled faster.\n\nThe tool that can scaffold anything in an afternoon will scaffold your bureaucracy in an afternoon too.\n\nSpeed of construction is speed of calcification. Build the thing that lets you create new things: experiences that didn’t happen before."
+  },
+  {
+    "id": "2065650561484267540",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "I can barely keep up with implementing/testing/landing all the Issues/PRs folks submit to https://t.co/qUxn0LF7Ct\n\nCodex runs INSIDE crabbox while it is building crabbox.\nThis is becoming essential infra for my work.\n\nCodex been looping nonstop for the last 4 days in multiple trees. Since all of it is e2e verifiable it basically builds itself. Codex even signs up for the services automatically via browser/computer use. My main job is adding credit card details and closing things that I don't see as a fit."
+  },
+  {
+    "id": "2064757537992249734",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Michael Truell (@mntruell) fell in love with coding at 12. The company he co-founded, @cursor_ai, went from 15 people to 700 in two years.\n\nToday, over 60% of the Fortune 500 build with its AI coding platform. https://t.co/1UROi02oHJ"
+  },
+  {
+    "id": "2064587398529606082",
+    "isQuote": true,
+    "handle": "zarazhangrui",
+    "text": "The barrier for non-technical people using coding agents was never the interface. Chatting is the easiest UI ever invented\n\nThe barrier is that they don't know what to ask for.\n\nThe blank chat box assumes you already know what's possible. Most people don't.\n\nWhen I tried Town, I was impressed by its onboarding process where the agent proactively suggested workflows & things it can take off my plate, rather than waiting for me to give instructions"
+  },
+  {
+    "id": "2064550073594446059",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "Btw this is the prompt I used:\n\nBuild F-Zero: futuristic anti-gravity racer with pseudo-3D track (raycasting or mode-7 style scaling), 3 AI opponents, boost meter that drains health, speed 400-800 km/h with visible sense of speed via track warping and scrolling ground pattern, arrow keys to steer, shift to boost, 3 laps on a looping track with checkpoints. \n\nStyle it neon cyberpunk (dark sky, glowing track edges, chromatic aberration on boost), show HUD with position/lap/speed/health, and make the ship bank into turns. Prioritize feel over realism - the speed sensation is the whole game."
+  },
+  {
+    "id": "2064394158056386684",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "For a small group of cyber defenders and critical infrastructure providers, we are also launching Claude Mythos 5.\n\nMythos 5 shares the same underlying model as Fable 5, but with the safeguards lifted in some areas."
+  },
+  {
+    "id": "2063649508681224367",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Box now has a markdown editor on the web. Full CLI support. Commenting. Full version history. Box Drive also lets you connect to any desktop client as a mounted drive, so you instantly work with all your files in Claude Cowork, Codex, Obsidian, Cursor, or any other app. https://t.co/3dJ5SBzhM5 https://t.co/WLUKegtiJ5"
+  }
+]

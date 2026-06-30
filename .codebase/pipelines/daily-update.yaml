@@ -1,0 +1,67 @@
+name: AI Builders Daily — daily update
+
+# 触发：每天 08:00 UTC（= 北京时间 16:00），紧跟在上游 follow-builders
+# 中央 feed 更新（约 07:30 UTC）之后。也支持手动 trigger 跑一次。
+trigger:
+  cron:
+    - schedule: "0 8 * * *"
+      timezone: "UTC"
+      branch: main
+  manual:
+    - branch: main
+
+# 在 Codebase Pipeline Editor 的 "Pipeline Variables" 中配置：
+#   LLM_API_KEY   - 内部 LLM 网关（OpenAI 兼容）的 Bearer Token (必填，缺省则跳过翻译)
+#   LLM_BASE_URL  - 内部网关地址，例如 https://maas-api.bytedance.net/v1（可选）
+#   LLM_MODEL     - 模型名，例如 doubao-pro-32k-241215（可选）
+#   GOOFY_APP_ID  - Goofy 前端项目的 App ID（用于 Deploy）
+
+jobs:
+  build_and_deploy:
+    name: 抓取 + 翻译 + 构建 + 部署
+    runs-on: { pool-name: docker, label: arm }
+    container:
+      image: hub.byted.org/base/lab.devbox.nodejs20:latest
+    timeout-minutes: 40
+    steps:
+      - name: 安装依赖
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile=false
+
+      - name: 每日数据更新（fetch -> collect -> translate）
+        env:
+          LLM_API_KEY: "{{LLM_API_KEY}}"
+          LLM_BASE_URL: "{{LLM_BASE_URL}}"
+          LLM_MODEL: "{{LLM_MODEL}}"
+        run: pnpm run data:update
+
+      - name: 校验翻译产物
+        run: |
+          test -s public/data/feed-history.json
+          test -s src/data/translations.json
+          test -s public/data/translations.json
+          echo "data files OK"
+
+      - name: 把更新后的数据回提到仓库（便于审计 + 回滚）
+        run: |
+          git config user.email "ci-bot@bytedance.net"
+          git config user.name  "ai-builders-ci-bot"
+          git add public/feed-x.json public/data/feed-history.json \
+                  src/data/translations.json public/data/translations.json
+          if git diff --cached --quiet; then
+            echo "no data changes today"
+          else
+            git commit -m "chore(data): daily update $(date -u +%Y-%m-%d)"
+            git push origin HEAD:main
+          fi
+
+      - name: 构建静态站
+        run: pnpm run build
+
+      - name: 部署到 Goofy（内部静态托管）
+        uses: actions/goofy-deploy@v1
+        with:
+          app_id: "{{GOOFY_APP_ID}}"
+          dist_dir: dist
+          # 默认走 Goofy 内置正式渠道；如需自定义渠道改 channel_id。

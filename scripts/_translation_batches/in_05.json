@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2063714700618334260",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on failed payments or credit card updates.\n\nAnd we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …\n\nhttps://t.co/OougSipbBX"
+  },
+  {
+    "id": "2061962774918373592",
+    "isQuote": true,
+    "handle": "danshipper",
+    "text": "Lucas joined us four years ago to sell ads. \n\nHe’s leaving having lead a team of designers who consistently set the bar for taste and creative direction in AI. Much of what makes @every distinctive visually came from his brain—and you can see his influence across the AI ecosystem. \n\nAs a founder, there nothing more rewarding than seeing someone like Lucas win—he’s going to do big things. \n\nAnd I am incredibly excited about the team and design culture he built @every that will continue to be inspired by his example and bar for excellence"
+  },
+  {
+    "id": "2061115431528943775",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Does anyone have good studies for what jobs AI has *meaningfully* replaced?\n\nLooking for a statistical analysis of historical data, present openings and forward looking statements for roles. \n\nI know it’s early but still want to read more. \n\nBroadly, we’re seeing every startup claim outcomes, model company revenues booming and companies laying people off - but I think the risk of the permanent underclass seems wildly overblown."
+  },
+  {
+    "id": "2062734215494664697",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF"
+  },
+  {
+    "id": "2062057881424506950",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build."
+  },
+  {
+    "id": "2069819652365242765",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "The data of tokens and uptime recovered by @vercel AI Gateway is truly astonishing https://t.co/kKzZWtdELa"
+  },
+  {
+    "id": "2069474688619958517",
+    "isQuote": false,
+    "handle": "bcherny",
+    "text": "I also have Claude monitoring Slack channels to proactively respond to people to answer their questions and draft PRs, and to react with specific emojis like ✅❌ when a thread is resolved.\n\nTo set it up, just add @.Claude to a channel and ask it to do this^, in natural language."
+  },
+  {
+    "id": "2069118077313425840",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "I want to do a podcast episode with someone who's good at using Codex / Claude Code to create fun pixel or threejs games and can show us how to do it.\n\nI am a gamer at heart! Who's the best person to talk to?"
+  },
+  {
+    "id": "2068165988005380478",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "The next hot programming language is… markdown.\n\nA minimal eve agent:\n\n📂 𝚊𝚐𝚎𝚗𝚝/\n  📄 𝚒𝚗𝚜𝚝𝚛𝚞𝚌𝚝𝚒𝚘𝚗𝚜.𝚖𝚍\n  📂 𝚜𝚔𝚒𝚕𝚕𝚜/\n     📄 𝚢𝚘𝚞𝚛-𝚎𝚡𝚙𝚎𝚛𝚝𝚒𝚜𝚎.𝚖𝚍\n\nDeployable in one command: 𝚟𝚎𝚛𝚌𝚎𝚕.\n\nIt’s the most accessible programming has ever been. And likely will ever be, at least for the generation of software fully defined and controlled by us humans.\n\n(As a fun fact, one of the initial prototypes for eve was codenamed 𝚕𝚊𝚜𝚝 by @timolins, both in homage to ‘@nextjs for agents’ but also in recognition of how enduring eve’s design feels to us.)"
+  },
+  {
+    "id": "2067936390285807940",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment &amp; commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html).\n\nThe original vision of the WWW coming to life before our eyes."
+  },
+  {
+    "id": "2067366749411176831",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour\n\nFrontier AI-coding daily actives, mid-2026: 5M devs \nFully-loaded cost: $90/hr \n\nWork routed to Fable in 48 hours: 17.8%\nFable is on average ~15% more productive \n\nEffective throughput loss per dev = 17.8% × 15% ≈ 2.7% of output\n\n2.7% × $90/hr = ~$2.40/dev/hr × 5M devs = $12M per working hour"
+  },
+  {
+    "id": "2067386342661624055",
+    "isQuote": true,
+    "handle": "danshipper",
+    "text": "we @every make investments every so often in founders building things in AI who we think are excellent\n\n@ninklefitz is one of those founders—and i am also a huge fan of tacit's mission and approach https://t.co/Hn9B8bWf8l"
+  },
+  {
+    "id": "2067056979974160749",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed to save Fable's advice too before it got restricted 🥲\n\n📌 Subscribe to get the tutorial tmr: https://t.co/MbOfeFUJbn https://t.co/bYW7tP4v0l"
+  },
+  {
+    "id": "2066415484149633329",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly to make use of the fanout that i think subagents are best at.\n\nbasically the idea is \"subroutines but intelligent\". when you undersatnd just how much knowledge work is just yakshaves after yakshaves that require some judgment and intelligence, you start to appreciate that dynamic workflows are not just for coding tasks..."
+  },
+  {
+    "id": "2065432924724539848",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "I just discovered forceBlockStreamingForReasoning = resolvedReasoningLevel === \"on\" for OpenClaw and frankly I love it\n\nSeeing the reasoning traces of my claw with Claude Fable 5 is a mind-blowing experience. Seeing the tale of the tape, and being able to engage with ideas at a deeper level has always been my catnip."
+  },
+  {
+    "id": "2065116986678624419",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Vercel + Shopify is too good…\nhttps://t.co/DHNo9pIOaK by @foda: \n◾ 500+ orders processed in *2 minutes*\n◾ Built with @v0 + @cursor_ai \n◾ Fully custom @nextjs storefront on headless\n\nSo long on the web. \nAnyone can now dream → build →  ship → sell https://t.co/lX8TNLYoKS"
+  },
+  {
+    "id": "2065287110744297809",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI adoption. Many standout findings, but a big one was that the companies that adopted AI the most are planning to grow headcount the most.\n\nObviously lots of ways you can read that data and variables mixed in, but it’s actually quite intuitive that the companies that become most productive want to (and are able to) reinvest back into the business to keep getting the gains going. \n\nThe narrative of jobs being wiped out assumes that companies will take a fixed approach to what they want to be able for work on. What’s happening in practice is it’s causing companies to want to light up more engineering projects, sell to more customers, automate more processes to give time back, and more. That all leads to more work to be done by people."
+  },
+  {
+    "id": "2064396746953023647",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "If you thought AI progress was slowing down, well here's the immediate answer to that. Huge jump in capability across the board. This is going to deliver major improvement in agents across almost all knowledge work categories. https://t.co/3CKQuX5HsG https://t.co/yPR4SfMrxM"
+  },
+  {
+    "id": "2064492823781789969",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "btw insane amounts of alpha in telling claude code to \"review my code for issues\" on Fable rn while it is not pay per use\n\nbe prepared to be in abject horror that you shipped anything to prod without a Fable Check™ first https://t.co/wPCWRO84xV"
+  },
+  {
+    "id": "2064437561930682672",
+    "isQuote": true,
+    "handle": "trq212",
+    "text": "Fable is a step-change in models, and I hope it changes how you work with Claude. \n\nMore to come in a series of posts on how it’s reshaped our work, but the TLDR: it’s time to be more ambitious. https://t.co/bWoxbTBShh"
+  },
+  {
+    "id": "2064034799711588805",
+    "isQuote": true,
+    "handle": "bcherny",
+    "text": "When we first demoed Claude Code internally, it got two reactions on Slack. \n\nA year after GA, @_catwu and I sat down to talk about what's changed: why I use auto mode instead of plan mode, how routines fix bugs before I see them, why I do most of my coding from my phone now, and where the product is going"
+  },
+  {
+    "id": "2063638307586662539",
+    "isQuote": true,
+    "handle": "zarazhangrui",
+    "text": "I think one reason that my Frontend Slides skill has grown so much organically is because slides are inherently social\n\nPeople see these cool slides and always ask \"how did you make it\". And people tend to perceive those using HTML decks as more AI-native and AI-savvy\n\nhttps://t.co/CiQpfibZn5"
+  },
+  {
+    "id": "2062558332695556378",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\nHis working thesis: the most underrated moat in AI is trust, and earning it takes craft, care, and obsession. https://t.co/xxGDgonNzS"
+  },
+  {
+    "id": "2062329981548802523",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again."
+  },
+  {
+    "id": "2061876999564791952",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Tons of goodies for use of codex for day to day work. \n\nIf you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more."
+  },
+  {
+    "id": "2061176075288453333",
+    "isQuote": true,
+    "handle": "garrytan",
+    "text": "This sounds like a small thing but it's big. Platforms need to stay open and it shouldn't require a lot of work to get your data. \n\nBecause where the AI harness wars are going... someone else's harness is just going to be you sharecropping someone else's AI ecosystem. https://t.co/mQBVLsyjdL"
+  },
+  {
+    "id": "2060390855383400729",
+    "isQuote": false,
+    "handle": "bcherny",
+    "text": "The teams seeing the biggest wins from AI are completely changing how they work, not speeding up what they already do. What steps can you delete, what handoffs go away, what can an agent just own end to end. Great to see Salesforce go this deep. Shoutout to Srini, @Benioff & team.\n\nFull writeup: https://t.co/3Rbdj9K8YN"
+  },
+  {
+    "id": "2061973280655904815",
+    "isQuote": false,
+    "handle": "sama",
+    "text": "theUSshould lead on AI by continuing to develop the very best models, making sure they're safe, and getting cyber tools into the hands of trusted defenders.\n\nthe new EO gets the balance right."
+  },
+  {
+    "id": "2061562575322492937",
+    "isQuote": true,
+    "handle": "sama",
+    "text": "The OpenAI Foundation is doing a lot of wonderful things.\n\nHelping society become resilient to AI is going to be incredibly important. Much more to come here! https://t.co/i0pkmF9Lmv"
+  },
+  {
+    "id": "2060678430031597696",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h tasks and my confidence that it’s ready is much much higher.\n\nYielding agents is a skill."
+  },
+  {
+    "id": "2062951924677128455",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Use the Skills API to make all your agents and platforms smarter.\n\nThink of it as the npm registry for agent capabilities and extensibility. Free and open. https://t.co/kcVnJSupTf"
+  },
+  {
+    "id": "2061545633560010826",
+    "isQuote": false,
+    "handle": "trq212",
+    "text": "been asking others at Anthropic how they stay in the loop with Claude and fully understand the work being done\n\nthis is one of my favorites from Suzanne: https://t.co/nqIMcGXiKI"
+  },
+  {
+    "id": "2069468701548531895",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Claude Tag is available in beta today on Slack for Claude Enterprise and Team plans. We plan to expand it more widely in the future.\n\nRead more: https://t.co/MGV30Ml8mL"
+  },
+  {
+    "id": "2069530765352907180",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅 https://t.co/s37TYKzSUn"
+  },
+  {
+    "id": "2064394160522559632",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Claude Fable 5 is available everywhere today. Claude Mythos 5 is restricted to Glasswing partners until we expand our trusted access program.\n\nhttps://t.co/iQymY0jiGq"
+  }
+]

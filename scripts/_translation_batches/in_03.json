@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2066683949129330817",
+    "isQuote": false,
+    "handle": "amasad",
+    "text": "I absolutely love Replit’s domain-specific agents:\n\n- growth agent surfacing SEO issues\n- security agent surfacing potential vulnerabilities\n\nMy favorite thing is: select all, fix with Agent. https://t.co/7TrK2UpNXQ"
+  },
+  {
+    "id": "2062628079869005876",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "NEW:\n\nSpiral 4.0—a writing partner for you and your agent by @every\n\n-> Stylometry: we built a new Style Engine based on the principles of stylometry to extract you and your brand's voice and produce great writing every time, based on examples of your past work\n\n-> MCP and CLI: Spiral is now built to be used by your agent like Codex, Claude Code, OpenClaw and more so you can get great writing automatically\n\nwe use it every day internally to write landing pages, tweets, podcasts, marketing emails and more and to make sure it's ALL on-brand across our entire 30 person team @every"
+  },
+  {
+    "id": "2060435594334130467",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "People use the term “AI psychosis” half-jokingly but I’d actually be very interested in seeing some studies on the effect of heavy AI usage on human psychology\n\nLike does constant context switching between multiple agent sessions reduce your attention span? Do you feel like your attention span has worsened since using AI?"
+  },
+  {
+    "id": "2066936706281206165",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "Every other product right now is \"an AI agent that does everything in your work & life & integrates with everything.\" \n\nCool, that's just Claude/Codex. \n\nIf you want me to use your thing instead, it needs an opinion & a soul. Build small & sharp, not big & generic.\n\nDoing everything means doing nothing. Speaking to everybody means speaking to nobody."
+  },
+  {
+    "id": "2064835289559023958",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "People should build agents/skills for their cross-functional teams.\n\nFor example, if a design team builds a design agent/skill for the marketing team (trained on all of the brand's guidelines and design patterns), then the marketing team can produce more on-brand assets without having to bug designers every time\n\nBut the marketing team couldn't have built this on their own; it takes the designer with their expertise, context, and knowledge\n\nSame thing applies to every pair of teams that work closely with each other, often rely on each other, and complain about each other's limited bandwidth\n\nBuilding agents for your cross-functional teams ensures each team can be more self-sufficient, and moves us to a direction where teams can be organized by \"loops\" rather than \"functions\""
+  },
+  {
+    "id": "2061256096719970337",
+    "isQuote": false,
+    "handle": "swyx",
+    "text": "just a small zoom out on the vibe shift:\n\nin Feb 2025 @soumithchintala was talking about his dream of personal, local, private agents, most people didn't believe him.\n\nit's June 2026 and @pewdiepie has just released his vibecoded @opencode wrapper that is a complete personal AI productivity suite including email, docs, and calendar. top of HN, easily >1m views, >10k stars in a day.\n\nif your Knowledge Work Agents startup can't beat pewdiepie you might as well pack up and go home at this point, his is the benchmark for what you can DIY."
+  },
+  {
+    "id": "2069455097193697393",
+    "isQuote": true,
+    "handle": "realmadhuguru",
+    "text": "I’ve had the chance to see this ecosystem from the different sides - enterprises, agent startups, data providers, labs. \n\nThe core tension here is that the business models, moats, value exchange, execution playbooks for all players are being figured out in real time.\n\nThis debate around token pricing is really a debate over where value will accrue - models, application layer, distribution or other layers.\n\nExpect a lot of strong opinions from the different sides to shape the narrative in their favor."
+  },
+  {
+    "id": "2067325893001826552",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Claude Design and Claude Code work together in both directions (rolling out today). Hand a design off to build, or start in Claude Code and sync design projects from your terminal.\n\nExport to PDF and PowerPoint, or send your work to more of the tools you already use."
+  },
+  {
+    "id": "2066270561081454989",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent. https://t.co/8xyjRjFk4v"
+  },
+  {
+    "id": "2064187731685831081",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "What is Google’s equivalent (or up and coming competitor) of Codex and Claude Code? \n\nIf it’s Antigravity, should that be part of Gemini?\n\nThis stuff is going to merge very fast like ChatGPT / Codex being able to do coding, knowledge work, basic Q&A, and much more from any device.\n\nHoping Google is working on a good solution here."
+  },
+  {
+    "id": "2063756386572681606",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on.\n\nBut nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories are tough to break into and need a heavy amount of consultative selling and support for implementation and integration of solutions.  \n\nAI hasn’t reduced the need for that, and in many cases requires it even more now, as landscapes get even more busy and complicated for buyers to navigate through. If you make one thing cheaper and more abundant (development of software) then the new problem of discoverability and market differentiation (GTM) becomes the hardest part."
+  },
+  {
+    "id": "2063704354910347520",
+    "isQuote": true,
+    "handle": "realmadhuguru",
+    "text": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples.\n\nThe data required to advance the model frontier is the opposite. Labs need training data for high-economic-value tasks. And most of these tasks outside of SWE have little documentation - it is complex, domain-specific knowledge built over the  years, spanning legacy tools that don’t talk to each other.\n\nThat's why we have SWE agents and not knowledge work agents yet.\n\nThe companies creating this training data, such as Mercor, are doing extremely high-leverage, high-skill work. \n\nCritical to moving AI forward. And deeply underappreciated."
+  },
+  {
+    "id": "2062740262338929110",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way."
+  },
+  {
+    "id": "2062659533047259212",
+    "isQuote": false,
+    "handle": "_catwu",
+    "text": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb"
+  },
+  {
+    "id": "2061593874498531707",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "MiniMax M3 is now the leading open model on the Next.js agent evaluations (https://t.co/SnZ54XoRWV).\n\nRight behind Opus &amp; GPT5, but 10× cheaper (And 20× cheaper right now on ▲ AI Gateway!) https://t.co/z9ts1NZDyu"
+  },
+  {
+    "id": "2067674836726694200",
+    "isQuote": true,
+    "handle": "_catwu",
+    "text": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! \n\nThis has changed how we work internally. Artifacts is great format for communicating architecture changes, data analyses, and new prototypes. https://t.co/nDgL4MWjBF"
+  },
+  {
+    "id": "2064486120386379950",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "I will be doing a virtual talk this Friday on my vibe coding process. \n\nAs a non-technical person who has somehow managed to get 30k stars on GitHub, I will be sharing the behind-the-scenes of how I get product ideas, how I work with coding agents, how to design stuff that's not AI slop, and why I think code is a medium for storytelling. \n\nRSVP here https://t.co/4wxpJjrAAB (Use the code PREMIUMPASS under \"Add a coupon\" to access the event for free)\n\n(Thanks to @sariazout and the @wwwsublimeapp  community for hosting)"
+  },
+  {
+    "id": "2061612625574944804",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "AWS has massive enterprise traction, with large committed contracts from enterprises. So this partnership opens up both increased distribution for OpenAI’s models, but also likely drives an increase in token consumption overall across model providers. https://t.co/I9XJyDAq9F"
+  },
+  {
+    "id": "2063697162748260627",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.\n\nYou should be designing loops that prompt your agents."
+  },
+  {
+    "id": "2067181377028538431",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3"
+  },
+  {
+    "id": "2060803480823193840",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Ship the best product. Use lots of AI, some AI, maybe no AI. Just be the best."
+  },
+  {
+    "id": "2065520041894756480",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "We just shipped 𝙷𝚊𝚛𝚗𝚎𝚜𝚜𝙰𝚐𝚎𝚗𝚝, a unified abstraction to orchestrate and integrate any agent’s “brain” into your app.\n\n@aisdk now frees you from both model and agent lock-in. (And it doesn’t just get you portability, it’s also delightful to use ofc!) https://t.co/CTbttpPKp8"
+  },
+  {
+    "id": "2064947145652994510",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "Nessie just became the best way to get all your existing context, memory and history from ChatGPT, Perplexity, and Gemini into all the other places you have memory, and also get it into OpenClaw/Hermes Agent. Their OpenClaw and MCP servers are ace. \n\nhttps://t.co/0L1JaBlTvg"
+  },
+  {
+    "id": "2064551967461114111",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Vercel CLI now allows you to:\n◾ create AI Gateway API keys\n◾ pass a --𝚋𝚞𝚍𝚐𝚎𝚝 to cap their spend\n◾ set a --𝚛𝚎𝚏𝚛𝚎𝚜𝚑-𝚙𝚎𝚛𝚒𝚘𝚍 for the quota\n\nThink of it as virtual credit cards for AI tokens 🤖💳 https://t.co/ZOuhwIp7h5 https://t.co/mvIsJkaBfR"
+  },
+  {
+    "id": "2062280745889222937",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software.\n\nTypically, companies maybe would spend on the order of $10-50 for a software license per month per employee, but now will pay hundreds or thousands on tokens to augment their productivity.\n\nThis shows you how big the TAM for intelligence is in the enterprise. The markets for AI are going to dramatically expand the size of the traditional software markets over time."
+  },
+  {
+    "id": "2061829558999912680",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Interpreting law is one of the oldest jobs in the world. @MaxJunestrand, co-founder and CEO of @WeAreLegora, is bringing it into its next era with Claude.\n\nHis bet: every new model release raises the tide, and Legora is building the boats for everyone else. https://t.co/EOM8PqALT4"
+  },
+  {
+    "id": "2069596515560267891",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8 https://t.co/qrHqoZKHG4"
+  },
+  {
+    "id": "2069598378191941835",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!"
+  },
+  {
+    "id": "2069473118742331608",
+    "isQuote": true,
+    "handle": "_catwu",
+    "text": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback! https://t.co/YOENq4hDSt"
+  },
+  {
+    "id": "2068411460620042720",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that. \n\nI talk to so many people who say xyz doesn’t work and when I ask when was the last time they tried testing it, the answer is always “a few months ago.” \n\nBrother that’s like eons ago in AI timelines. This is why each person needs to have their own evals of hard tasks and weekly tinker time to truly understand where the frontier is. \n\nAnd then you need to talk to enterprise buyers weekly who are usually two years behind. But they are the buyers so you need to understand how to market. \n\nThe combination of the two will give you a pretty good sense of where to invest time and capital. If you just do these two weekly, you’ll be ahead of 99% of people."
+  },
+  {
+    "id": "2067703108344369306",
+    "isQuote": true,
+    "handle": "thenanyu",
+    "text": "It took us a lot of iterations to find the right pattern for this. Early on we were very naive and we thought that the agent could one shot project updates without much input from users.\n\nThat approach ended up creating a bunch of slop, because users disengaged their brain from the process of writing an update.\n\nBy switching to a multi turn interactive mode, the agent prompts you and asks you what to emphasize, what's most important, what context is missing, etc.\n\nThis simple change elicits much better project updates and ensures that the user has a chance to steer rather than simply being asked to say yes to everything.\n\nA very good example of introducing friction for a net benefit."
+  },
+  {
+    "id": "2067606805459714229",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "For people who don’t have a clear sense of the future they want, AI is just another mechanism of control\n\nBut in the hands of someone with agency, AI is the breaker of chains, something that lets you do things no humans can do alone. \n\nAI can be a liberator if you choose agency."
+  },
+  {
+    "id": "2064799855059616172",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to be a builder.\n\nAs you climb the ladder at most companies, you’re expected to step away from building and fill your time with product reviews, cross-functional alignment, managing up, and performance calibrations.\n\nI know a lot of builders who spent their best years climbing the wrong ladder.\n\nThe good news is that this is finally changing. Companies are rewarding builders and ICs more than ever, and even managers are increasingly expected to do IC work too.\n\nBut becoming a good builder takes reps, and it’s hard to put in those reps when you’re in back-to-back meetings all day.\n\nSo if you’re a builder at heart, embrace it. You don’t have to give up what you’re good at to be a “leader.”\n\n📌 Watch now: https://t.co/wv2SINll18"
+  },
+  {
+    "id": "2064467657483829441",
+    "isQuote": true,
+    "handle": "alexalbert__",
+    "text": "We've reset usage limits across our products! \n\nFor those just starting to test Fable, here's four tips for using it more effectively:\n1. Give it bigger, more ambitious tasks than what previous models could handle.\n2. Use xhigh/high effort as your default for best performance, med for faster interactive sessions.\n3. Rework your skills and CLAUDE.mds. Instructions written for prior models anchor Fable to stale patterns, let it use its own judgment first.\n4. Move from providing tasks to providing objectives. Describe what done looks like and how to verify it, then let Fable find the path (/loop and /goal are built for this)"
+  },
+  {
+    "id": "2064426115255730578",
+    "isQuote": true,
+    "handle": "bcherny",
+    "text": "We talk a lot about how important it is to set up self-verification loops. Especially in the age of powerful models that can run for long periods of time, self-verification is a key ingredient that enables the model to run for much longer, delivering a result that is closer to what you intended, so you can do more without having to constantly check in on Claude as it works.\n\n@delba_oliveira gives a great breakdown of what that looks like and why it matters"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2067671914533863585",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Artifacts draw on the full context of your session: codebase, plugins, skills, connected tools. They're private until you share them, and sharing stays inside your organization.\n\nRead more: https://t.co/z4DEdRVn7a"
+  },
+  {
+    "id": "2067313780724551853",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "The thing about vibe coded personal apps:\n\nBuilding the thing takes a day. Finding out if you'll actually use it takes a week. Most of my dead projects worked fine. I just never opened them.\n\nMost products are built for a person who doesn't exist. Someone who remembers to open the app, clicks the right button, does step 1, 2, 3 every day. Real humans are lazy & forgetful. Build for that person instead"
+  },
+  {
+    "id": "2067064381855187231",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise? https://t.co/LilIl4XkJF"
+  },
+  {
+    "id": "2066553521978097921",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "One of our most requested features, longer Vercel function runtime, is here.\n\nWhat looks like an innocent tweak of a constant… is actually the conclusion a multi-year compute platform investment.\n\nBuilds, Sandbox, and now Functions run on our homegrown microVM-based Fluid compute infrastructure.\n\nThis investment has enabled innovations like function multi-concurrency, Active CPU pricing, and Secure Compute for private connectivity to existing cloud workloads… with lots more to come, in fact, in the coming days and weeks 😎"
+  },
+  {
+    "id": "2065559864559145420",
+    "isQuote": false,
+    "handle": "swyx",
+    "text": "## The Future Codebase\n\nAfter the PR dies, after the Code Review dies,\ni am seriously wondering if Git needs to die next.\n\nroughly 20-40% of code spend is just managing and updating merge conflicts. necessary evil? or legacy \"horseless carriage\"? cargo culting the past?\n\nwe don't do line by line merge conflicts when we collaborate with human colleagues - instead we chat, suggest edits, do side comments, and an owner ships it. \n\nbtw we also don't do CI/CD even collaborating on documents with serious legal/financial implications.\n\nmaybe the future codebase looks more like a Notion or Linear database than .git objects. It will be less efficient, but more scalable. exactly the Salty Lesson."
+  },
+  {
+    "id": "2065468501750649006",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing. https://t.co/xXiqGijtIP"
+  },
+  {
+    "id": "2065493229760565758",
+    "isQuote": false,
+    "handle": "alexalbert__",
+    "text": "Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with what it's telling me 😅\n\nThis prompt snippet has been the best fix I've found for getting it to write clearly and drop any jargon: https://t.co/9mS57mR7jq"
+  },
+  {
+    "id": "2064175088824717401",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "The funniest texts are from founders who meet “thesis driven” GPs hoping they’ll understand EXACTLY what they are building.. \n\nAnd then realize the thesis was written and built by an associate (or, worse an intern). \n\nDon’t always read what the VC writes on the internet - yes, that includes me too (although I can guarantee I don’t have an associate, intern, EA or ghostwriter) 😆"
+  },
+  {
+    "id": "2063475353335869922",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "There should be a way to filter or sort all my Codex threads in different ways vs. only by project. \n\nLike filter or sort by:\n\n- All waiting for approval\n- All currently working\n\nI'm trying to keep it to 10 threads but it's already getting unwieldly.  wdyt @ajambrosino ?"
+  },
+  {
+    "id": "2063028956211867837",
+    "isQuote": false,
+    "handle": "bcherny",
+    "text": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies.\n\nIf you’ve been curious, this is a good month to find out what it can take off your plate. Can’t wait to see what you do."
+  },
+  {
+    "id": "2063035894790345200",
+    "isQuote": false,
+    "handle": "mattturck",
+    "text": "Ok bad stories about VCs are spreading on X right now, but VCs have horror stories about founders too \n\nLike, that one time when a founder decided to take another term sheet with a higher valuation despite our obvious ability to add value, thought leadership and vendor discounts"
+  },
+  {
+    "id": "2062535454130676193",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡 https://t.co/a6ZWOjPKPq"
+  },
+  {
+    "id": "2062018242789670929",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "Matt's guide is great but this line is pretty funny: \n\n\"They're so lit up by being able to build anything that they don't do anything else. Then they launch and there are no users.\" 😆 https://t.co/Cu6i8e8WWN https://t.co/zxK7w11ynW"
+  },
+  {
+    "id": "2061893093696434578",
+    "isQuote": false,
+    "handle": "amasad",
+    "text": "Excited to partner with @Microsoft to enable everyone in the enterprise to build and deploy safe &amp; secure Fabric data apps.\n\nThis is possible thanks to Microsoft's new Rayfin SDK. https://t.co/sAEKkXYFfy"
+  },
+  {
+    "id": "2061574752574283858",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "I told codex to use https://t.co/oHS8ombQcW whenever I'm distracted and it needs my help to be unblocked, and ever once it a while I hear it talking to me, and it's the coolest thing ever. (e.g. for releases, that needs npm and is 1Password-gated)"
+  },
+  {
+    "id": "2061208638027395490",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "Been teaching codex to be my QA assistant. For every commit it creates a user-test scenario and uses webVNC (crabbox), computer/browser use (peekaboo/mcporter) to test OpenClaw like a user/QA person would.\n\nThis runs in the background and opens PRs with fixes. https://t.co/xGcKgjyf7F"
+  },
+  {
+    "id": "2060600088079356292",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "A founder kept saying \"if only we had money we'd do X.\"\n\nMoney is not the fire. Money is gasoline you pour on a fire that already exists.\n\nYou don't have a funding problem. You have a \"people don't want it yet\" problem. Go make the first fire."
+  },
+  {
+    "id": "2060122956429472027",
+    "isQuote": true,
+    "handle": "amasad",
+    "text": "Generate images, video, audio and remix them.\n\nDraw something and make it real.\n\nPoint-click edit, move things around, drag them, drop them.\n\nInvite a friend and cook some marketing, websites, or art.\n\nAll on Replit Canvas! https://t.co/LLoiJCx8uI"
+  },
+  {
+    "id": "2066905445974102384",
+    "isQuote": true,
+    "handle": "nikunj",
+    "text": "Be in the judgement (data) path or the token path. Today’s @cursor_ai acquisition sets the path for more application companies. Congrats to all my friends 🥳 https://t.co/wCKIwElVji"
+  },
+  {
+    "id": "2065269582961737957",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "had an idea for a big fable project, set it up, and let it cook\n\ncame back an hour later and it had triggered the safeguards and fell back to 4.8 10 minutes in\n\nback to codex 😬"
+  },
+  {
+    "id": "2063818032280170721",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "My wife asked me to take out the trash.\n\nI said, “You shouldn’t be prompting me anymore. You should be designing loops.\"\n\nFinish the punch line of this dad joke please."
+  },
+  {
+    "id": "2069588152285794373",
+    "isQuote": true,
+    "handle": "amasad",
+    "text": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf https://t.co/fu1FQpfyHY"
+  },
+  {
+    "id": "2068923971136098633",
+    "isQuote": false,
+    "handle": "ryolu_",
+    "text": "missing wooden shelves\nso i made Books in ryOS\n\nstarted in Cursor mobile, then hand-tuned the animations and textures until things felt right https://t.co/f2yFZ2N1CQ"
+  },
+  {
+    "id": "2060766674203353190",
+    "isQuote": true,
+    "handle": "ryolu_",
+    "text": "what i love about auto-review: Cursor explains the command and risk, makes it much easier for new coders to learn and just do things https://t.co/3d2gt9uRKq"
+  },
+  {
+    "id": "2066966270197805331",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Vibes at Cursor Compile were immaculate. Also getting a custom mechanical keyboard is a new kind of swag ceiling for conferences ⌨️ https://t.co/RXq9qLvXJJ"
+  },
+  {
+    "id": "2063744208587125142",
+    "isQuote": true,
+    "handle": "amasad",
+    "text": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats! https://t.co/Z2gcG0WF0t"
+  },
+  {
+    "id": "2064394159318782217",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "Soon, we intend to expand access to Mythos 5 through a broader trusted access program, both for defensive cybersecurity work and biomedical research."
+  },
+  {
+    "id": "2069925697741881633",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Excited to host a World Cup viewing party in SF next week with our friends at @Replit x @trincapital!\n\nJoin us ⚽️🍾\n\nhttps://t.co/lcxTnHzKap"
+  },
+  {
+    "id": "2068792010715324444",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?"
+  },
+  {
+    "id": "2065832948709122120",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Obligatory - if you are the rare application startup with a live product that is in the decisions and dollars path, I’d love to chat 👋"
+  },
+  {
+    "id": "2066956441173323943",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans. https://t.co/vx3Jb7YT6K"
+  },
+  {
+    "id": "2061443674311999739",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "you don't have to work 7 days a week if you just have a swarm of Codex's running on /goal all the time \n\nbut you'll probably want to"
+  },
+  {
+    "id": "2065997212015067508",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "Got a PayPal verification text and thought I been hacked, but it was just codex signing up for a web service it needed."
+  },
+  {
+    "id": "2064748427892945313",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "The more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt"
+  },
+  {
+    "id": "2063785286367392095",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "GBrain v0.42.30 can now give you a detailed summary of how your thinking has changed over time. https://t.co/lcj64PThft"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2061277577785000203",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "Ok is there any difference between Codex automations and Claude Code routines? Which one is better? \n\nI want to consolidate all my cron jobs in one list."
+  },
+  {
+    "id": "2063018337567670285",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "We've doubled usage limits in Claude Cowork for the next month.\n\nDelegate bigger, more complex tasks to Claude. https://t.co/ivHZuaMbZV"
+  },
+  {
+    "id": "2069218497272717661",
+    "isQuote": false,
+    "handle": "ryolu_",
+    "text": "here's my talk at Cursor Compile\nsome thoughts on how we build in the age of AI\nand what doesn't change https://t.co/otMw3nwPkr"
+  },
+  {
+    "id": "2069484330938998993",
+    "isQuote": true,
+    "handle": "_catwu",
+    "text": "Here’s our Get Started guide for configuring agent permissions for Claude Tag! https://t.co/x7G0o8Cjx1"
+  },
+  {
+    "id": "2063426632824562167",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "LLMs are not conscious. \n\nLLMs are not not conscious. \n\nBoth true."
+  },
+  {
+    "id": "2065283568918794658",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "These AI models remind me of RPGs tbh https://t.co/84tXOpnofH"
+  },
+  {
+    "id": "2067363904183783833",
+    "isQuote": true,
+    "handle": "amasad",
+    "text": "Design with Claude, Ship with Replit https://t.co/zY1RSyubKT"
+  },
+  {
+    "id": "2069468698071494976",
+    "isQuote": false,
+    "handle": "claudeai",
+    "text": "In a channel, there’s one Claude that interacts with everyone, so a teammate can pick up exactly where you left off.\n\nIt builds more context about the work as it follows the channel, so you don’t need to explain things from scratch."
+  },
+  {
+    "id": "2069301071965741388",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market?\n\nSpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is  paid for if Composer 3 does well. \n\nNo other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well"
+  },
+  {
+    "id": "2069121360744550796",
+    "isQuote": false,
+    "handle": "sama",
+    "text": "We want to help all companies be secure, working with the USG and the security ecosystem.\n\n*The full version of GPT-5.5-Cyber is here; state of the art performance on CyberGym.\n\n*Patch The Planet and Codex Security will help solve security problems instead of just finding them. https://t.co/otyCFHJR4d"
+  },
+  {
+    "id": "2065909887025168887",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix!\n\nlink below \n\nwe had @devinai analyze registered attendee list and output a live chart of the people coming to the conference. it ended up being the single best data driven storytelling i've ever seen on what kind of community we are gathering in two weeks.\n\nsurvey link here!\nhttps://t.co/2oilc5lCDm\n\nno lurking, fill it out pls"
+  },
+  {
+    "id": "2065236013627351551",
+    "isQuote": false,
+    "handle": "amasad",
+    "text": "For the first time, I'm vibecoding with ZERO frustration and in a complete state of flow, so much so that I'm running out of ideas.\n\nTypically, I have so much backlog of things I want to add, but after Fable landed on Replit, I'm almost certain I don't need more IQ for vibecoding, just cheaper and faster models, and we're done here."
+  },
+  {
+    "id": "2064421542503797186",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "for those keeping track at home it was 34 days between signing this deal and launching Mythos-class model GA to the world.\n\nhttps://t.co/J1dZDZcxMu\n\nbuilding on @nvidia stack means you can just do things™."
+  },
+  {
+    "id": "2064204735671124073",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "If you’re addicted to talking to Codex on your phone like I am this is how you add it to your iPhone Home Screen.\n\nBtw @OpenAI hoping there’s an easier way to do this in the future. The everything app should not take 9 steps to open 😉 https://t.co/LCzNSFjbrM"
+  },
+  {
+    "id": "2063082950317486133",
+    "isQuote": false,
+    "handle": "swyx",
+    "text": "a smarter alternative to \"always use plan mode\": \n\nalways frame your task as a question, so that the model is invited to push back and rate the quality of the idea/suggest alternatives, rather than blindly execute what you SAID to do \n\n(which is often not precisely what you MEANT)\n\nliterally just appending \"?\" to the end of your prompt often does it"
+  },
+  {
+    "id": "2062217018187923783",
+    "isQuote": true,
+    "handle": "trq212",
+    "text": "If this prompt feels well written to you, it's because Suzanne is a writer in her little spare time! \n\nYou can read her short story, Mall of America here: https://t.co/uYY8VlPIUt\n\nIt's one of my favorite short stories about the human condition that happens to involve AI. https://t.co/XRduxCgX8S"
+  },
+  {
+    "id": "2060390852619272526",
+    "isQuote": false,
+    "handle": "bcherny",
+    "text": "Salesforce published a detailed writeup on going agentic with Claude Code. A couple things jumped out.\n\nA migration they'd scoped at 231 days shipped in 13. One PR delivered 21 endpoints at 100% test coverage."
+  },
+  {
+    "id": "2068120572673077274",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure. https://t.co/sfFYixfXPl"
+  },
+  {
+    "id": "2067124871226929526",
+    "isQuote": true,
+    "handle": "ryolu_",
+    "text": "the crazy thing about Cursor mobile\nis @rikcreation coded most of the real thing with Cursor, as a “designer”\n\ntitles don’t mean shit.\nyou can just build. https://t.co/UYOoUYf0t0"
+  },
+  {
+    "id": "2066865154902380796",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw"
+  },
+  {
+    "id": "2064911328087810308",
+    "isQuote": true,
+    "handle": "thsottiaux",
+    "text": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something. https://t.co/UG7hB1URMC"
+  },
+  {
+    "id": "2069152290326630518",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44"
+  },
+  {
+    "id": "2065259509082411233",
+    "isQuote": false,
+    "handle": "amasad",
+    "text": "Replit Agent team did a great job making Fable cost stomachable. The lack of mistakes net net makes it more affordable. https://t.co/ICkFYKxqYt"
+  },
+  {
+    "id": "2065176231453282777",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "congrats to our friends @ona_hq on joining @openai! \n\nsee their talk here for alpha on what’s next for Codex 👀 https://t.co/u4EkcJvlAf"
+  },
+  {
+    "id": "2062062585391014245",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "@saranormous codex is agi man \n\nhttps://t.co/LFzyjAdKfm\n\noneshotted this, no notes\n\nhttps://t.co/8tCIUSdxON https://t.co/LSoEaEHqfP"
+  },
+  {
+    "id": "2061415178298937365",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Beautiful example of a full-stack agent on @vercel. Great learning material! https://t.co/jz1E7g4aSM"
+  },
+  {
+    "id": "2065856703397278060",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "before and after fable ban:\n\nmy claude app vs. codex app usage https://t.co/ddBRm7bp21"
+  },
+  {
+    "id": "2069219190834127276",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Claude Design → Vercel, in one click https://t.co/Btq9hFk7OB https://t.co/NpgdokzpvE"
+  },
+  {
+    "id": "2065567852162355551",
+    "isQuote": false,
+    "handle": "steipete",
+    "text": "codex -C ~/projects/openclaw -m gpt-5.5-cyber time https://t.co/6ANgzM1JKJ"
+  },
+  {
+    "id": "2064411791015432466",
+    "isQuote": true,
+    "handle": "amasad",
+    "text": "Try Claude Mythos at 25% off on Replit. https://t.co/Lq68eRydYI"
+  },
+  {
+    "id": "2069434452628185241",
+    "isQuote": false,
+    "handle": "garrytan",
+    "text": "Dropbox should really support larger than 3TB plans - it's not 2015 anymore. The amount of data we are throwing off and that is *actually usable* is going to go exponential from AI, and Dropbox will be run over by this if they don't update for the future."
+  },
+  {
+    "id": "2069474689819480394",
+    "isQuote": false,
+    "handle": "bcherny",
+    "text": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thread, its own memory and permissions per channel."
+  },
+  {
+    "id": "2069590431646769472",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers"
+  },
+  {
+    "id": "2069311440692072481",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "I created a complete walkthrough of my Frontend Slides skill (22k+ stars on GitHub):\n- Complete demo of how to create beautiful HTML slides with Claude Code (beginner friendly)\n- How I created the skill\n- How you can create your own skill\n- Tips like how to insert images/videos into deck, how to publish\n- Lessons I learned\n(11-min video, YouTube link below)"
+  },
+  {
+    "id": "2068874249167884544",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "It’s funny, growing up as an immigrant I developed a scarcity mindset around saving money and resources.\n\nBut when it comes to unlimited token plans and tokenmaxxing, it feels like a missed opportunity if I don’t burn as many tokens as possible and hit the limit each time.\n\nHow do I address this disconnect? 🥹"
+  }
+]

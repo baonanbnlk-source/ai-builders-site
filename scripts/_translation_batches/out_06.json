@@ -1,0 +1,122 @@
+{
+  "2061277577785000203": {
+    "zh": "Codex automation 和 Claude Code routine 之间到底有没有区别？哪个更好？\n\n我想把所有 cron job 合并到同一个清单里。"
+  },
+  "2063018337567670285": {
+    "zh": "Claude Cowork 接下来一个月使用上限翻倍。\n\n把更大、更复杂的任务交给 Claude 吧。"
+  },
+  "2069218497272717661": {
+    "zh": "这是我在 Cursor Compile 上的演讲。\n\n聊聊在 AI 时代我们怎么 build，以及哪些事不会变。"
+  },
+  "2069484330938998993": {
+    "zh": "这是我们关于“如何为 Claude Tag 配置 agent 权限”的入门指南！",
+    "quoteSummaryZh": "原推应是 Claude Tag agent 权限配置文档；Cat 转发推荐这篇 Get Started 指南。（基于转述）"
+  },
+  "2063426632824562167": {
+    "zh": "LLM 没有意识。\n\nLLM 也并非毫无意识。\n\n两句话同时为真。"
+  },
+  "2065283568918794658": {
+    "zh": "说真的，这些 AI 模型让我想起 RPG 游戏。",
+    "quoteSummaryZh": "原推应是张展示模型属性/特点的图（类似角色面板）；Peter 把不同 AI 模型类比为 RPG 角色。（基于转述）"
+  },
+  "2067363904183783833": {
+    "zh": "Design with Claude，Ship with Replit。",
+    "quoteSummaryZh": "原推应是 Claude Design × Replit 集成相关的发布；Amjad 用一句口号“用 Claude 设计、用 Replit 发布”概括协作。（基于转述）"
+  },
+  "2069468698071494976": {
+    "zh": "在一个频道里只有一个 Claude 与所有人交互——这样团队成员可以从你停下的地方继续接力。\n\n它会跟着频道积累工作上下文，所以你不用每次从头解释。"
+  },
+  "2069301071965741388": {
+    "zh": "我觉得几乎没人正确算清“SpaceX 这个 NeoCloud + NeoLab”现在的市场打法。\n\nSpaceX 已经通过算力交易回收了它在 Cursor 上大约一半的投资。如果 Composer 3 表现不错，另一半也能回本。\n\n没有第二家公司同时既是顶级模型实验室又是 NeoCloud（至少在 GPU 这件事上是）。这种组合极其有效——前提是你已经为以下两种情况充分规划好 GPU 供应：1) 自家训练非常成功；2) 自家训练不太成功。",
+    "quoteSummaryZh": "原推应是 SpaceX 与 Cursor 的合作公告；Swyx 复盘其中的算力买断、模型路由经济学，把 SpaceX 定位为唯一的“模型实验室 + NeoCloud”组合。（基于转述）"
+  },
+  "2069121360744550796": {
+    "zh": "我们希望帮助所有公司变得更安全，与美国政府和安全生态合作。\n\n* GPT-5.5-Cyber 完整版来了；在 CyberGym 上拿到 SOTA。\n* Patch The Planet 与 Codex Security 不只是“找出”安全问题，还要“解决”它们。"
+  },
+  "2065909887025168887": {
+    "zh": "本周末是填年度 AI Engineering Survey 的最后机会，可以赢 Vercel + Notion + AIE 的福利！\n\n链接在下方。\n\n我们让 @devinai 分析了已注册参会者名单并实时画图——结果是我见过最棒的“用数据讲社区故事”。两周后我们将聚集的是什么样的社区，看完一目了然。\n\n问卷链接：见下\n\n别潜水，麻烦填一下！",
+    "quoteSummaryZh": "原推应是 AIE Survey 收尾通知；Swyx 推荐使用 @devinai 把已注册参会者画出实时画像作为“数据讲故事”的最佳样例。（基于转述）"
+  },
+  "2065236013627351551": {
+    "zh": "我第一次能在零受挫、完全 flow 的状态下 vibe coding，已经爽到我都开始没点子可写了。\n\n我以前积压一堆想做的功能，但 Fable 上线 Replit 之后我几乎可以肯定：vibe coding 不再需要更高 IQ 的模型了，只需要更便宜更快的模型——这条路就到头了。"
+  },
+  "2064421542503797186": {
+    "zh": "给在家追这条线的朋友：从签下这笔交易到把 Mythos 级模型 GA 发布给世界，只用了 34 天。\n\n构建在 @nvidia stack 上，意味着你“就能直接做”™。",
+    "quoteSummaryZh": "原推应是 Anthropic / NVIDIA 合作并发布 Mythos 5 的公告；Swyx 强调“34 天”的执行速度，以及 NVIDIA stack 带来的“直接做事”能力。（基于转述）"
+  },
+  "2064204735671124073": {
+    "zh": "如果你和我一样上瘾“在手机上和 Codex 聊天”，这是把它加到 iPhone 主屏的方法。\n\n顺便 @OpenAI，希望以后能简化——“everything app”不应该需要 9 步才能打开 😉"
+  },
+  "2063082950317486133": {
+    "zh": "比“永远开 plan mode”更聪明的替代方案：\n\n永远把任务包装成一个问题，让模型有空间反推你的想法、给替代方案，而不是盲目执行你“说出来”的事（往往并不是你“想要”的事）。\n\n字面意义上，在 prompt 末尾加一个“?”，往往就够了。"
+  },
+  "2062217018187923783": {
+    "zh": "如果你觉得这个 prompt 写得很好，那是因为 Suzanne 业余时间在写小说！\n\n你可以读她的短篇 Mall of America：链接见下。\n\n这是我最喜欢的“以 AI 为外壳、其实写人类处境”的短篇之一。",
+    "quoteSummaryZh": "原推应是 Thariq 之前贴的某个“写得很好的 prompt”；他在这条里揭示作者背景——是同事 Suzanne，业余写小说。（基于转述）"
+  },
+  "2060390852619272526": {
+    "zh": "Salesforce 发了一篇详细博客介绍他们用 Claude Code 走 agentic 路线的经验。两点很惊艳：\n\n他们原本估 231 天的迁移，13 天就 ship 了。\n一个 PR 交付了 21 个 endpoint，且测试覆盖率 100%。"
+  },
+  "2068120572673077274": {
+    "zh": "Codex 现在支持远程 / 本地 handoff！我们一个个边界拆下来。\n\n当你让模型坐在驾驶位上，你需要的基础设施反而更少。",
+    "quoteSummaryZh": "原推应是 Codex 远程/本地切换能力的发布；Thibault 强调“模型主导”反而能简化基础设施。（基于转述）"
+  },
+  "2067124871226929526": {
+    "zh": "Cursor mobile 最疯狂的事是——@rikcreation 作为一个“设计师”，用 Cursor 自己写完了大部分真代码。\n\n头衔什么都不是。你直接 build 就行。",
+    "quoteSummaryZh": "原推应是 Cursor mobile 应用的发布；Ryo 用 @rikcreation 这位“设计师作为主开发者”的故事来强调“头衔不重要、能 build 就行”。（基于转述）"
+  },
+  "2066865154902380796": {
+    "zh": "唉。我们注意到部分 Codex 用户在遇到大量“model at capacity”错误，正在恢复稳定中。"
+  },
+  "2064911328087810308": {
+    "zh": "可以确认：过去 48 小时 Codex 的 token 消耗量出现了强烈的增长尖峰。在没有 launch 任何东西的情况下出现这种增长，相当不寻常。",
+    "quoteSummaryZh": "原推可能在询问 Codex 用量异常的原因；Thibault 直接确认了这一异常。（基于转述）"
+  },
+  "2069152290326630518": {
+    "zh": "Let's Patch The Planet。Codex security 的更新和全新 GPT-5.5-Cyber，今天是网络安全防御加速值得庆祝的一天。"
+  },
+  "2065259509082411233": {
+    "zh": "Replit Agent 团队把 Fable 的成本做得很可承受。它“少犯错”这件事 net net 让它反而更划算。"
+  },
+  "2065176231453282777": {
+    "zh": "祝贺我们的朋友 @ona_hq 加入 @openai！\n\n看他们的演讲了解 Codex 接下来的方向 👀",
+    "quoteSummaryZh": "原推应是 ona 团队加入 OpenAI 的公告；Swyx 推荐看他们的演讲获取 Codex 路线图线索。（基于转述）"
+  },
+  "2062062585391014245": {
+    "zh": "@saranormous，codex 就是 AGI。\n\n这条 oneshot 出来的，没改动。",
+    "quoteSummaryZh": "原推应是 Sarah Guo 的某条关于 Codex 能力的推文；Swyx 半开玩笑地回应“codex 就是 AGI”，并贴出自己 oneshot 出的 demo。（基于转述）"
+  },
+  "2061415178298937365": {
+    "zh": "@vercel 上一个非常漂亮的“全栈 agent”案例。学习材料绝佳！",
+    "quoteSummaryZh": "原推应是某个全栈 agent 实例分享；Rauchg 推荐它作为学习材料。（基于转述）"
+  },
+  "2065856703397278060": {
+    "zh": "Fable 被禁前后：我用 Claude App 和 Codex App 的频次对比图。"
+  },
+  "2069219190834127276": {
+    "zh": "Claude Design → Vercel，一键打通。",
+    "quoteSummaryZh": "原推应是 Claude Design 一键部署到 Vercel 的发布；Rauchg 简短转推确认能力上线。（基于转述）"
+  },
+  "2065567852162355551": {
+    "zh": "codex -C ~/projects/openclaw -m gpt-5.5-cyber time"
+  },
+  "2064411791015432466": {
+    "zh": "在 Replit 上以 75 折试用 Claude Mythos。",
+    "quoteSummaryZh": "原推应是 Replit × Claude Mythos 的限时折扣公告；Amjad 简短转推。（基于转述）"
+  },
+  "2069434452628185241": {
+    "zh": "Dropbox 真的应该支持比 3TB 更大的方案——已经不是 2015 年了。AI 让我们产出且“真正可用”的数据量会指数级增长，Dropbox 如果不为未来更新，会被这一波碾过去。"
+  },
+  "2069474689819480394": {
+    "zh": "在频道里 @ Claude，它会自动起一个带独立 sandbox 的实例：在隔离环境里 clone repo、写代码、跑测试、编译，做完之后 sandbox 直接销毁。每个 thread 一个实例，每个频道独立的记忆与权限。"
+  },
+  "2069590431646769472": {
+    "zh": "我准备建一个 X Chat 群专门收 eve 的反馈。如果你正深度在做 agent 并能给出高质量的批判性反馈或需求，DM 我，我把你拉进群——里面有 eve 的工程师。"
+  },
+  "2069311440692072481": {
+    "zh": "我录了一份完整的 Frontend Slides skill walkthrough（GitHub 22k+ stars）：\n- 用 Claude Code 做漂亮 HTML slides 的完整 demo（新手友好）\n- 我是怎么做出这个 skill 的\n- 你怎么做自己的 skill\n- 实战 tips：怎么往 deck 里插图片/视频、怎么发布\n- 我学到的教训\n（11 分钟视频，YouTube 链接见下）"
+  },
+  "2068874249167884544": {
+    "zh": "好笑的是，作为移民长大的我对省钱、省资源养成了“稀缺心态”。\n\n但一遇到无限 token 套餐和 tokenmaxxing，每次没把 token 烧到上限我都觉得是“白白错过”。\n\n这种割裂我该怎么调和？🥹"
+  }
+}

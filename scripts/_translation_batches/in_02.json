@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2065911676000752122",
+    "isQuote": true,
+    "handle": "realmadhuguru",
+    "text": "Having been through many frontier model launch reviews, I have empathy for everyone involved.\n\nLaunching an LLM isn't like shipping traditional software - you're making a decision about a black box with effectively infinite use cases and infinite failure modes.\n\nThe tradeoffs are hard - every increase in capability expands the space of both valuable use cases and potential misuse.\n\nAs a lab, you build extensive evals, you red-team, you iterate on the model. You debate tradeoffs across candidate checkpoints before choosing the best one to launch.\n\nThen early-access partners still uncover behaviors you didn't anticipate.\n\nYou can never be 100% certain you've understood a frontier model. You focus on reducing the uncertainty enough to launch.\n\nAs frontier models become smarter across the industry, that decision will get harder - for labs and regulators."
+  },
+  {
+    "id": "2061846283263103274",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "People are saying SaaS is not dead.\n\nI think larger enterprise SaaS that can do multiple jobs are probably fine (e.g., Figma).\n\nBut if you’re building a simple SaaS for a narrow use case, I think it's harder to monetize now because:\n\n1.  AI skills can often solve the same problem in a much more flexible, personalized way.\n\n2.  AI-native agents like Codex / Claude Code that have a user's personal context and memory have far more knowledge to solve the user's problem vs. a standalone SaaS website or chatbot.\n\n3.  People are willing to pay hundreds or thousands for services (human touch is what's rare these days) but charge $20 / month for a SaaS and people will compare it's value to their Claude / ChatGPT subscription.\n\nCurious if others feel the same way? I guess I'm in a bubble and most people have not set up their own AI skills yet."
+  },
+  {
+    "id": "2067802697324212562",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. \n\nThe government will have frameworks that are used to determine future model releases past a certain threshold of capability or compute levels. Given all the constituents involved, and the economic and societal significance of AI, this was practically an inevitability.\n\nIt may seem small but the implications are massive. It will mean that each model update will go through an extensive review, testing, and feedback process. And in that processes lots of groups will weigh in on the risk of the model, and there will be lots of subjectivity on what the actual risks are or practicalities of exploiting those risks. \n\nA positive potential future here would be we still get massive model progress but they just happen in bigger jumps at once, where the labs pack in major improvements since the cost and slow down of each review stacks up. \n\nOn the other side, the risk is that past a certain threshold we may not get to see the rapid back and forth of model progress that we’ve gotten used to which can have negative compounding effects. Hoping for the former outcome."
+  },
+  {
+    "id": "2062202908306030915",
+    "isQuote": false,
+    "handle": "danshipper",
+    "text": "I bought Figma stock during the SaaSpocalypse panic. Talking to @mcolyer, Figma's director of product management for developers, made me wish I'd bought more.\n\nHe joined me on @every's AI & I to make the case for a SaaS resurgence—and to explain why chat-based tools are the wrong interface for design. We get into:\n\n- Why running your own agents makes you more willing to pay for SaaS, not less\n- How Figma's MCP server allows you to approach design work from two directions: Take a live web page and reconstruct it on the Figma canvas, or hand a Figma design over to an agent so it can makes changes via pull request\n- The inherent limits of chat-based design, a format that isn’t equipped to generate lots of new ideas\n-Why review is the next bottleneck, and potential solutions for helping teams scale evaluations\n\nWatch below!\n\nTimestamps\n0:01:03 - Introduction\n0:02:15 - The SaaSpocalypse narrative has it backwards\n0:05:27 - Matt’s email-agent origin story\n0:13:21 - Divergent vs. convergent design thinking\n0:17:39 - Figma’s MCP server\n0:19:45 - Why design agents need personalization\n0:22:09 - Every problem is a context problem\n0:25:12 - Apple and Google as the reigning kings of context\n0:28:18 - Why review is the new bottleneck"
+  },
+  {
+    "id": "2066935654500671499",
+    "isQuote": true,
+    "handle": "realmadhuguru",
+    "text": "The real prize in the SpaceX-Cursor deal is the agentic harness that will become the core for automating all knowledge work at scale.\n\nHere’s what SpaceX is getting:\n\n1. Production-grade agentic harness  -planning, context management, tool use, iteration, verification, memory, error recovery. \nAny product experience can be completely redesigned in an AI-native way with this harness.\n\n2. Expertise on the full AI stack - model, evals, harness, application layer.\n\n3. End to end product lifecycle focus: product strategy -> user journeys -> GTM. Everything optimized for one job: helping software engineers build.\n\nVery few companies do even one of these well. Cursor brings all three."
+  },
+  {
+    "id": "2064409694761054332",
+    "isQuote": true,
+    "handle": "karpathy",
+    "text": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time.\n\nI feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). Really looking forward to all the things people build!"
+  },
+  {
+    "id": "2063835799096090749",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families.\n\nWe’ll see a split between frontier intelligence for high end tasks and work, and much cheaper models for high volume workloads that can sufficiently be peeled off to cheaper models. Frontier will still be far bigger than today because the use-cases will demand it, but the low-end will get quite a bit larger as well.\n\nThe big update here is that the layer that can efficiently route the workload to the right model will then become increasingly valuable since that becomes one of the new hard problems in AI agents. Agent orchestration that can cost optimize while still performing the task successfully will be in a strong position."
+  },
+  {
+    "id": "2062335852379066698",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. \n\nJust take engineering, as the prime example of the area with greatest AI impact (and perceived risk). Most companies now have far more software projects than ever before because of AI, and effectively only engineers are going to be the ones doing that work. \n\nYou can get by for a while by being non-technical building software, but eventually someone has to understand what the thing is that got built, has to maintain it, has to fix security issues that come up, upgrade the systems beneath it, and so on. That’s all jobs.\n\nNow apply that to a number of other job functions. AI is going to cause companies to hire more in sales because agents can let them process more leads and do more customer research. AI will cause an explosion of new marketing roles because of how much more efficient it is to launch campaigns and target. The list goes on.\n\nAI is going to have the opposite effect that lots of people thought on jobs."
+  },
+  {
+    "id": "2061662386680127688",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "As we enter the era of AI agents, one of the defining questions is how you develop competitive advantage when your competitor has access to the same AI models and intelligence as you. \n\nThe companies that are able to best harness their internal institutional knowledge, existing data assets, and domain-specific workflows -- connected with AI -- will be those that are able to stay ahead in the future.\n\nWhether a company decides to build out the tech stacks themselves, or leverage a variety of best-in-class tools is certainly one core variable. But the key is to find the way that the enterprise can capture and protect the value created by their unique data, processes, and expertise over the long run. Each industry will have their own version of this, and the competitive advantage will vary by vertical.\n\nWe’re increasingly seeing this at Box, where customers want to ensure that they can take advantage of their institutional knowledge and have the flexibility of bringing any AI model and intelligence to their data at any time. This is a pattern that will increasingly become a core principle of strategy in the future."
+  },
+  {
+    "id": "2063024953721827329",
+    "isQuote": false,
+    "handle": "realmadhuguru",
+    "text": "One of the most common mistakes I see enterprise AI teams make is building for today’s model capabilities and price points.\n\nThink 6 months out. Models will be way smarter and cheaper.\n\nScaffold around today’s model weaknesses to push the frontier. Bet that the next generation of models will natively solve for the scaffold. Push the frontier again.\n\nBuild for the slope.\n\nOver time, that ability to repeatedly identify and bridge model gaps becomes a moat of its own."
+  },
+  {
+    "id": "2064794601320481150",
+    "isQuote": true,
+    "handle": "realmadhuguru",
+    "text": "Right from the early days of Gemini, enterprises would get the quality/cost tradeoff wrong. They’d often start with the smallest, cheapest model.\n\nThe rule of thumb we gave customers:\n\nReplacing a traditional ML model with an LLM - start small, cos you already know what good looks like.\n\nBuilding something new - start with the most capable model. Think magically. Figure out what’s actually possible first.\n\nOnce they had a high-quality working application, we’d help them move to a smaller model while maintaining quality."
+  },
+  {
+    "id": "2062899832965255443",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\"\n\n2. Make it easy to trigger\n\n“Write a clear skill description using this pattern: Use when the user wants to [do this].”\n\n3. Add evals\n\n\"Create an evals md with 10 pass/fail checks for common errors in the skill's output.\"\n\n4. Add memory\n\n\"Create a memory md to capture one-sentence learnings from past chats using this skill.\"\n\n5. Build a skill to edit skills\n\n\"Create a skill that cleans up other skills by removing duplicate or stale instructions, vague rules, and AI slop.\"\n\n📌 Watch my full walkthrough here: https://t.co/u434ytNSZd"
+  },
+  {
+    "id": "2067821985342878180",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. \n\nThe implications of open models getting to frontier performance ensures that you can always have sovereign AI, have the ability to post train for your specific workflows, cost optimize for various workloads, and actually afford to do much more with AI (which opens up meaningfully different applications).\n\nHuge win for the applied AI layer."
+  },
+  {
+    "id": "2067242482190979186",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "React    →  https://t.co/a4QDSs9wxd\nNext.js  →  https://t.co/nDDXqUmgw5\n\n@aisdk is more relevant than ever, given the intense model competition landscape. Just today, GLM 5.2, an open model, surpassed Opus 4.8 in our Next.js Evals (https://t.co/aporqgIfIh) 🤯\n\nBut the world needs a practical solution for how to build and deploy agents. Just like React needed Next.js to solve the task of building an actual web application. And that's eve."
+  },
+  {
+    "id": "2064379199629181139",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Great post. So much about model performance is a function of how much compute you’re doing at inference time. This means compute-normalized benchmarks is the only logical path forward. \n\nAnd yet, the challenge is it’s a lot harder than it seems given it’s subjective how much compute to apply, which means models behave differently at different thresholds (simplistically, model X’s min thinking may beat model Y’s min thinking, but be reversed at high), and there are a near infinite set of thresholds you could choose to set. \n\nBut either way, moving more in this direction would be great for better understanding AI progress."
+  },
+  {
+    "id": "2061934154732974376",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "YES-CODE\n\nAn entire category of software, \"no-code\", was built under the presumption that code is expensive, difficult, and scarce.\n\nCoding agents have forever changed the equation. Code is now cheap, easy, and abundant.\n\nI remember @cramforce being asked by an analyst long ago: \"soo, is @vercel like a no-code platform?\" Without hesitation he goes \"no, it's the absolute opposite. It's a yes-code platform.\" 😁\n\nA key thing we set out to do was to be uncompromising in quality and sophistication of the things you could host. No-code solutions took shortcuts and set hard ceilings, typically on performance and sophistication.\n\nOur mission is to create the easiest cloud for agents that you never graduate from.\n\nPS: welcome https://t.co/WTKvpexJtD to Vercel!"
+  },
+  {
+    "id": "2061117302528188712",
+    "isQuote": false,
+    "handle": "sama",
+    "text": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society.\n\nAI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need.\n\nOur world simulation research program, led by Aditya Ramesh (@model_mechanic), has evolved over the past year into OpenAI Robotics. Progress is rapid, and based on a foundation of co-design between robotics hardware and ML research.\n\nIf you love working hands-on across the robotics stack and want to build the future, please consider joining us. Send an email with your background and evidence of exceptional accomplishment to: robotics-recruiting@openai.com"
+  },
+  {
+    "id": "2061974298760495132",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "As token budgets take on a larger part of operating expenses over time, model routing is the inevitable conclusion. This is also one of the biggest areas of differentiation for the applied AI layer over time. \n\nBy understanding the different work patterns in your domain, and having strong evals for that domain, you’ll be able to cost/performance optimize effectively.\n\nWe’re still likely at the point where most use-cases will need frontier performance for the foreseeable future; but soon you will be able to peel off individual use-cases and send them to lower cost models once the quality is sufficient for the task.\n\nEnterprises individually trying to figure this out themselves at scale will likely not be possible, so the products that can intelligently route these workflows to the right tier of model will be in a strong position to aggregate more demand."
+  },
+  {
+    "id": "2061135404942974982",
+    "isQuote": false,
+    "handle": "rauchg",
+    "text": "Unclear if a durable trend, but CEOs and CTOs are back to coding with a fury, thanks to coding agents.\n\nI have public company CEOs sliding into my DMs (and “InMail”) telling me about falling in love with shipping software again thanks to Claude Code and Vercel.\n\n“Dream accounts” that we always wanted to work with, where in the past the C-suite would hardly understand the infrastructure until much later in the game.\n\nCoding agents are the ultimate PLG-fication of the enterprise. Bad, legacy software can’t hide anymore. The stack that works is self-evident to the entire organization, from intern to CEO."
+  },
+  {
+    "id": "2060627747760984429",
+    "isQuote": false,
+    "handle": "thsottiaux",
+    "text": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue."
+  },
+  {
+    "id": "2060923684295221390",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Again, maybe counterintuitive, but in the majority of conversations I have with CIOs, CTOs, and CEOs in large enterprises, they are either growing due to AI (in new job functions like FDEs, engineering, etc.) or at a minimum reinvesting efficiency savings back into the business in new areas (sales, marketing, etc.).\n\nDavid Solomon, CEO of Goldman Sachs, articulated this perfectly in a NYTimes OpEd last week. The AI boom is both creating all new jobs in the build out of AI systems and the implementation across sectors, but also freeing up dollars to invest in areas that have been underfunded or have more demand now because of AI. \n\nMost businesses have been constrained by how much software they can produce at a given cost, how many sales reps they can hire, how many marketing campaigns they can run, how they can do outbound customer success motions with enough tailoring, how they can find more risk in their business and prevent it, and 100s of other things. \n\nWhen AI makes it possible to do more of this, investment goes back into the business. The companies that better serve their customers win over the long run, and those that just try and find savings end up doing worse."
+  },
+  {
+    "id": "2069964772003770673",
+    "isQuote": false,
+    "handle": "swyx",
+    "text": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and researcher- focused talks:\n\n- AI generated svgs > AI generated imgs. MAXIMUM 4 ai slop images in your slides, I don't care how pretty your mom thinks they are (exception ofc if your talk is ABOUT imagegen)\n- Be pointy. Better to have 1 message with 5 surprising applications, than 5 messages with no concrete examples.\n- Put code on screen. Engineers like to see code. Especially if they can nitpick it to death over things that aren't the point.\n- Don't forget to Entertain. Being actually funny, or good at telling relevant anecdotes, is more important than adding yet another bullet point.\n- Have a Thesis. every talk gets ONE \"if you remember one thing from this talk, it is this\" card. 1) SO MANY PEOPLE DON'T USE IT. 2) SO MANY PEOPLE DON'T PLAN FOR IT. you get one. use it well?\n- Have a Thesis Slide. you've been in that talk where everyone gets their phone out to take a photo of the slide. Because people see 1000x more images than videos, you are much more likely to have a viral talk/slide if you have a single viral slide. You are much more likely to have a viral slide if you TRY and most people do not TRY. Struggling? Collect examples from talks you like and adapt their format to your thing. Your slides have a power law - don't spend 5% of your time each on 20 slides, spend 80% of your time on 1 slide and have the rest build up to that 1 slide.\n- You might not need slides. live demo in IDE, off the cuff rambles, pull audience member up to roleplay, do call and response with the audience, sing/perform, voice over vibe videos, I have seen it all. higher risk/effort, higher reward when done well.\n- Be pleasant to listen to. Talks with bad/no visuals still can be listened to. Talks with bad audio are DOA. Be confident, project, remember vocal variation, evoke emotion.\n- Design the emotional journey. Start strong, end strong, have a peak aha/laugh/thesis moment in the middle. Everything else is buildup.\n- Data driven talks are underrated. Present pretty charts and surprising, authoritative numbers. Use the stage authority to infer from the data to support the broader thesis. Done well, it will feel like my obvious conclusion from objectively looking at the data you presented, not you feeding the conclusion to me.\n- How to shill your product/company without feeling salesy: teach me everything I didn't know I should to know about the problems you solve, and then you shall have earned the right to convince me you are the guys to trust to solve it once and for all.\n- Actively watch a lot of talks. like with anything you both need a lot of reps AND you need to explore to find the styles/role models that you shine in. Passive = no introspection after watching, just mindlessly autoplay next video. Active = trying to articulate why a talk was good/bad after watching. If you want to REALLY hone it, think about how you feel about a famous talk and then TRANSCRIBE the talks and read the words on the printed page, and then compare with a \"normal\" talk and define rules you will follow for yourself to improve.\n\nthanks to @dexhorthy for organizing the AIEWF Speaker prep meetup tonight. we should actually do more of these...."
+  },
+  {
+    "id": "2062743491365544361",
+    "isQuote": false,
+    "handle": "petergyang",
+    "text": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool."
+  },
+  {
+    "id": "2062659649732825549",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "Introducing the Nock skill (powered by @meetgranola) 👀\n\nSomeone recently asked me if I can be replaced by AI, and my ego initially said NO WAY.. \n\nThen, I thought about what's the best way to have the most accurate \"AI\" representation of me for these conversations.\n\nSo, I used @claudeai Code to pull >200 1:1 founder pitch meeting notes that were captured by Granola in the last couple of years. \n\nFocused all the notes to only things I asked. Distilled it further down to ~53 meetings where there was a lot of good discussion and debate.\n\nFinally, I took a few of my essays which describe the kind of founders that I love.\n\nUsing those, I used Claude Code again to build this skill called \"Nock\" that has some principles and a question bank that are grounded in real conversations. \n\nTo refine, I used this skill over 5-10 actual decks and conversations where we first had the skill output what it thinks and then we compared it against the real conversation. We kept improving it - till it felt like an accurate representation of me. \n\nSo, if you are a founder raising and want to see what I would think about your deck, try this out: nikunjk dot com / nock\n\nAnd, if you are a VC who wants to build your own Nock, we have that too: nikunjk dot com / buildnock"
+  },
+  {
+    "id": "2060105470460010993",
+    "isQuote": true,
+    "handle": "rauchg",
+    "text": "Vercel CLI as a self-updating binary with zero external dependencies.\n\nOur CLI is one of the key interfaces enabling the 'cloud for agents'. This solves a huge bottleneck, as we ship changes to our CLI more than ever, and it's embedded in more places than ever.\n\nFun fact: we built 𝚙𝚔𝚐¹ yeaaars ago in service of this vision. I didn't want customers to have to worry about Node.js over here, and the CLI package over there. We deprioritized it because Git and Web took off massively, and CLI usage was more sporadic.\n\nNow the situation is inverted. Every day, I hear from customers discovering Vercel after OpenClaw, Claude Code, or Codex not only introduce, but also onboard users to our agentic infrastructure. Our CLI (as well as our MCP and SDKs) is a key enabler of this new wave.\n\n¹ https://t.co/kidl1bmxjB"
+  },
+  {
+    "id": "2068851573175021864",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Agents will use software 100X more than people. \n\nWhen that happens, theres a huge need for guardrails on what the agents are doing so they don’t leak data or change the wrong information, authoritative sources of truth for them to work with, logging and auditing of what they’re doing, the ability to collaborate with people through these systems, and more.\n\nA simple query on any given agentic task could pull in more data than a user touches in a month. As a result, there are lots of categories of software that when it goes headless that the usage and value go up substantially. Agents will end up using our CRM data, documents and corporate knowledge, analytics data, and other information far more than people ever did.\n\nThe platforms that can move toward the model of powering these headless interactions, and have a business model and technology strategy to support this, will be in the best position in the future."
+  },
+  {
+    "id": "2068755908319236338",
+    "isQuote": true,
+    "handle": "petergyang",
+    "text": "Why HTML turned out to be the foundation for agentic video making from @liu8in:\n\n“We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence.\n\nSo that’s when we turned to code. HTML is the LLM’s native language. LLMs can express not only information, but also visual aesthetics through HTML, CSS, and JavaScript.\n\nFootage, images, assets, SVGs can all sit on top of HTML.\"\n\n📌 As an example, see how you can make a product video from any website URL here: https://t.co/Q2p8XzCfc6"
+  },
+  {
+    "id": "2067423674689638652",
+    "isQuote": false,
+    "handle": "zarazhangrui",
+    "text": "Don't use AI for writing until you develop your own taste and voice\n\nUsing AI to write isn't inherently bad. The danger is using AI to write before you've developed your taste for what is good content. If the AI produces slop, you won't even recognize it as slop\n\nRead a lot to figure out what good looks like. Write a lot to know what your voice sounds like. Only then, use AI to help you write, but make sure it actually sounds like you"
+  },
+  {
+    "id": "2066735879213994434",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "Key post that gives a bit of insight into what the future of AI could look like.\n\n“The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming increasingly customizable. The companies that win won't necessarily be the ones with the biggest models. They'll be the ones that turn intelligence into something uniquely their own.”\n\nThe ability to combine your unique data, workflows, and a layer that can route intelligence to whatever model best performs the task is clearly the future."
+  },
+  {
+    "id": "2066235625695850526",
+    "isQuote": true,
+    "handle": "swyx",
+    "text": "Satya on loops as IP:\nhttps://t.co/87HBsQptdQ\n> This is the first time we can create a real cognitive loop between people and digital systems. That is a mind-bender, because it changes how we even conceptualize work inside an enterprise.\n\n> This means the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning\n\n> In my view, our priority has to be building a frontier ecosystem, not just a frontier model, so value flows broadly across every company, every industry, and every country. One where every organization can own the learning loop that encodes its institutional knowledge, compounding its human and token capital."
+  },
+  {
+    "id": "2065616509666472329",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "This is a big turning point for AI regulation.\n\nThe government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls in the future.\n\nI’m in the camp that this is unnecessary and we should be primarily regulating the use of AI, as opposed to the underlying models. But, equally, there are plenty of people that actually prefer this outcome.\n\nEither way, it’s unlikely that we’re going back to a world where the government doesn’t have far more meaningful involvement in the rate of AI progress."
+  },
+  {
+    "id": "2064508462034501997",
+    "isQuote": false,
+    "handle": "nikunj",
+    "text": "For the prompt, in Claude app with research mode on - I dumped the transcript for the episode, have it research all the scurves in history, figure out all the sections and give me a Claude code prompt that I could one shot.\n\nHere’s the website: https://t.co/zPGOiwmiXG"
+  },
+  {
+    "id": "2069547676849557725",
+    "isQuote": true,
+    "handle": "karpathy",
+    "text": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome."
+  },
+  {
+    "id": "2066908002809221496",
+    "isQuote": true,
+    "handle": "levie",
+    "text": "The Cursor deal is symbolically quite significant. It was effectively the first mega success in the applied layer of AI. \n\nThey firmly proved out the value proposition of having a deep domain focus, the role you play as a model router, when to lean into frontier models vs. when to train your own, and the role of applied AI GTM and distribution to make sure you’re actually taking advantage of the market opportunity. \n\nEvery aspect of their business was tuned to carve out ground and keep doubling down in a highly competitive space. This is really the first at scale template for how to execute this playbook."
+  },
+  {
+    "id": "2067025851829330076",
+    "isQuote": false,
+    "handle": "joshwoodward",
+    "text": "🇧🇷World-changing AI companies are coming from Brazil.\n\nThat’s why we’ve officially expanded our Google AI Futures Fund to Brazil, partnering with venture capital leader Monashees to launch the Gama Fund.\n\nWe’re looking for an elite cohort of deep tech founders and will offer:\n\n- Early access to Google DeepMind models\n- Up to $2M in co-investment\n- $350k in Google Cloud & Gemini credits\n- Direct co-development with Google engineers at our new IPT Open campus hub\n\nApply today: https://t.co/8sv9seJLdB"
+  }
+]
