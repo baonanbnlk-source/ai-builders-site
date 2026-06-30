@@ -72,11 +72,11 @@ async function getFileFromGit(sha) {
 async function listCommitsFromApi() {
   const since = new Date(Date.now() - DAYS * 24 * 3600 * 1000).toISOString();
   const url = `https://api.github.com/repos/${REPO_REMOTE}/commits?path=${FILE_IN_REPO}&per_page=100&since=${since}`;
-  const { stdout } = await execFileAsync(
-    "curl",
-    ["-fsSL", "-H", "Accept: application/vnd.github+json", url],
-    { maxBuffer: 32 * 1024 * 1024 }
-  );
+  const ghToken = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+  const args = ["-fsSL", "-H", "Accept: application/vnd.github+json"];
+  if (ghToken) args.push("-H", `Authorization: Bearer ${ghToken}`);
+  args.push(url);
+  const { stdout } = await execFileAsync("curl", args, { maxBuffer: 32 * 1024 * 1024 });
   const arr = JSON.parse(stdout);
   return arr.map((c) => ({ sha: c.sha, iso: c.commit.author.date }));
 }
