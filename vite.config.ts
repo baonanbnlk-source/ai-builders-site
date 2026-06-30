@@ -3,11 +3,9 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { CodeInspectorPlugin } from "@rdservices/aime-code-inspector";
 
-// BASE_PATH lets the same build target both Aime preview ("/") and GitHub
-// Pages project sites ("/<repo>/").  Set BASE_PATH in CI, e.g.
-//   BASE_PATH=/follow-builders-site/ pnpm build
+// GitHub Pages project site: deployed at /ai-builders-site/
 export default defineConfig({
-  base: process.env.BASE_PATH || "/",
+  base: "/ai-builders-site/",
   plugins: [
     react(),
     // IMPORTANT: DO NOT REMOVE THIS!

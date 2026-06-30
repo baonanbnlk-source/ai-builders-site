@@ -8,13 +8,16 @@ set -euo pipefail
 
 echo "[run-daily] node: $(node -v)  pnpm: $(pnpm -v)"
 
-echo "[run-daily] step 1/3 · 数据更新 + 内容过滤 + 翻译"
+echo "[run-daily] step 1/4 · 数据更新 + 内容过滤 + 翻译"
 node scripts/daily-update.mjs
 
-echo "[run-daily] step 2/3 · 安装依赖（允许 esbuild/core-js 构建脚本）"
+echo "[run-daily] step 2/4 · 安装依赖（允许 esbuild/core-js 构建脚本）"
 pnpm install --frozen-lockfile --config.dangerouslyAllowAllBuilds=true
 
-echo "[run-daily] step 3/3 · 构建静态产物"
+echo "[run-daily] step 3/4 · 构建静态产物"
 pnpm build
+
+echo "[run-daily] step 4/4 · 发布到 GitHub Pages"
+bash scripts/deploy-pages.sh
 
 echo "[run-daily] 完成，产物位于 $(pwd)/dist"
