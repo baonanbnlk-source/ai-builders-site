@@ -21,7 +21,13 @@
   ],
   "annotations": [],
   "comments": [],
-  "visits": [],
+  "visits": [
+    {
+      "userId": 2,
+      "handle": "sama",
+      "visitedAt": 1782980121
+    }
+  ],
   "follows": [],
   "nextUserId": 3
 }
