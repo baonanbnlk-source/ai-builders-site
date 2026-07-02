@@ -10,36 +10,8 @@
       "lastLoginAt": 1782977416
     }
   ],
-  "annotations": [
-    {
-      "id": "53de9dfdb98f4962",
-      "userId": 1,
-      "targetPath": "/builders/swyx",
-      "blockId": "summary-swyx-0",
-      "quote": "测试 quote 中文",
-      "createdAt": 1782977371
-    }
-  ],
-  "comments": [
-    {
-      "id": "4187c680ef264dbf",
-      "annotationId": "53de9dfdb98f4962",
-      "userId": 1,
-      "parentId": null,
-      "body": "初始评论",
-      "createdAt": 1782977371,
-      "reactions": []
-    },
-    {
-      "id": "5320412e99e6446c",
-      "annotationId": "53de9dfdb98f4962",
-      "userId": 1,
-      "parentId": null,
-      "body": "第二条评论",
-      "createdAt": 1782977373,
-      "reactions": []
-    }
-  ],
+  "annotations": [],
+  "comments": [],
   "visits": [],
   "follows": [],
   "nextUserId": 2
