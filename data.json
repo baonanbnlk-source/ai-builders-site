@@ -26,6 +26,14 @@
       "blockId": "b2",
       "quote": "q2",
       "createdAt": 1782977432
+    },
+    {
+      "id": "4b5a938088074d30",
+      "userId": 1,
+      "targetPath": "/builders/swyx",
+      "blockId": "b4",
+      "quote": "q4",
+      "createdAt": 1782977434
     }
   ],
   "comments": [],
