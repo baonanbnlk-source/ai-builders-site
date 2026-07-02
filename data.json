@@ -10,27 +10,8 @@
       "lastLoginAt": 1782978203
     }
   ],
-  "annotations": [
-    {
-      "id": "d5ed482c967445f4",
-      "userId": 1,
-      "targetPath": "/builders/swyx",
-      "blockId": "summary-swyx-0",
-      "quote": "线上测试 quote",
-      "createdAt": 1782977679
-    }
-  ],
-  "comments": [
-    {
-      "id": "cbd8fef07fb04e2a",
-      "annotationId": "d5ed482c967445f4",
-      "userId": 1,
-      "parentId": null,
-      "body": "线上测试评论",
-      "createdAt": 1782977679,
-      "reactions": []
-    }
-  ],
+  "annotations": [],
+  "comments": [],
   "visits": [],
   "follows": [],
   "nextUserId": 2
