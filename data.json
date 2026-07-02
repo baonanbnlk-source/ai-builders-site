@@ -29,6 +29,15 @@
       "body": "初始评论",
       "createdAt": 1782977371,
       "reactions": []
+    },
+    {
+      "id": "5320412e99e6446c",
+      "annotationId": "53de9dfdb98f4962",
+      "userId": 1,
+      "parentId": null,
+      "body": "第二条评论",
+      "createdAt": 1782977373,
+      "reactions": []
     }
   ],
   "visits": [],
