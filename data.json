@@ -10,8 +10,27 @@
       "lastLoginAt": 1782978231
     }
   ],
-  "annotations": [],
-  "comments": [],
+  "annotations": [
+    {
+      "id": "6c118d391b1e4e82",
+      "userId": 1,
+      "targetPath": "/builders/swyx",
+      "blockId": "summary-swyx-0",
+      "quote": "E2E 测试选中文本",
+      "createdAt": 1782978232
+    }
+  ],
+  "comments": [
+    {
+      "id": "0e437dff35594ae2",
+      "annotationId": "6c118d391b1e4e82",
+      "userId": 1,
+      "parentId": null,
+      "body": "E2E 测试评论",
+      "createdAt": 1782978232,
+      "reactions": []
+    }
+  ],
   "visits": [],
   "follows": [],
   "nextUserId": 2
