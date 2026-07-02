@@ -19,8 +19,27 @@
       "lastLoginAt": 1782980132
     }
   ],
-  "annotations": [],
-  "comments": [],
+  "annotations": [
+    {
+      "id": "887c1819d56f4f3c",
+      "userId": 2,
+      "targetPath": "/digest/today",
+      "blockId": "today-2026-07-02-2072447453622882338-zh",
+      "quote": "没有人工智能我以前是怎么工作的啊？",
+      "createdAt": 1782980134
+    }
+  ],
+  "comments": [
+    {
+      "id": "2073b6433f1f4a44",
+      "annotationId": "887c1819d56f4f3c",
+      "userId": 2,
+      "parentId": null,
+      "body": "hhh",
+      "createdAt": 1782980134,
+      "reactions": []
+    }
+  ],
   "visits": [
     {
       "userId": 2,
