@@ -28,6 +28,12 @@
       "visitedAt": 1782980121
     }
   ],
-  "follows": [],
+  "follows": [
+    {
+      "userId": 2,
+      "handle": "sama",
+      "createdAt": 1782980123
+    }
+  ],
   "nextUserId": 3
 }
