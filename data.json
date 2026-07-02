@@ -1,8 +1,18 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "baonan.april@bytedance.net",
+      "name": "鲍楠",
+      "avatarEmoji": "🦔",
+      "avatarColor": "text-rose-700",
+      "createdAt": 1782977367,
+      "lastLoginAt": 1782977367
+    }
+  ],
   "annotations": [],
   "comments": [],
   "visits": [],
   "follows": [],
-  "nextUserId": 1
+  "nextUserId": 2
 }
