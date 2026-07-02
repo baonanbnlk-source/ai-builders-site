@@ -8,11 +8,20 @@
       "avatarColor": "text-rose-700",
       "createdAt": 1782977367,
       "lastLoginAt": 1782978274
+    },
+    {
+      "id": 2,
+      "email": "baonan.april@bytedance.com",
+      "name": "鲍楠",
+      "avatarEmoji": "🦊",
+      "avatarColor": "text-rose-700",
+      "createdAt": 1782979252,
+      "lastLoginAt": 1782979252
     }
   ],
   "annotations": [],
   "comments": [],
   "visits": [],
   "follows": [],
-  "nextUserId": 2
+  "nextUserId": 3
 }
