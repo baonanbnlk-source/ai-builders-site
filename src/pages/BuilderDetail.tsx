@@ -30,7 +30,26 @@ export default function BuilderDetail() {
 
   const todayCount = useMemo(() => (builder ? tweetsByHandle(todayTweets, builder.handle).length : 0), [todayTweets, builder]);
 
+  // 页头 badge "本机已标注 N 处": 保留原语义 (只算当前博主详情页上的标注)
   const annotations = useAnnotations((a) => a.targetPath === `/builders/${builder?.handle}`);
+  // 团队讨论 Tab: 拉全站标注、按 builder handle 过滤 (支持在文摘/时间线/详情页所有地方
+  // 讨论到这个 builder 的都在此汇总)。判定规则:
+  //   1. targetPath 精确等于 /builders/{handle} (来自博主详情页)
+  //   2. 或 blockId 中含 -{handle}- 片段 (来自 TweetCard 的 builder-{handle}- 前缀 / 摘要块)
+  //   3. 或 blockId 里含 -at-{handle} 之类的手写标记
+  // 目的: 让"团队讨论"真实反映"团队对 @handle 的讨论"，而不是只有 profile 页那一小撮。
+  const teamAnnotations = useAnnotations((a) => {
+    const h = builder?.handle;
+    if (!h) return false;
+    if (a.targetPath === `/builders/${h}`) return true;
+    const bid = a.blockId || "";
+    return (
+      bid === `builder-${h}` ||
+      bid.startsWith(`builder-${h}-`) ||
+      bid.includes(`-${h}-`) ||
+      bid.endsWith(`-${h}`)
+    );
+  });
 
   // Record a visit when this profile mounts (per builder, per mount).
   useEffect(() => {
@@ -145,13 +164,13 @@ export default function BuilderDetail() {
 
       {tab === "team" && (
         <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h3 className="text-base font-semibold text-slate-800">团队对 {builder.displayName} 的讨论</h3>
-          <p className="mt-1 text-sm text-slate-500">下面汇总了本浏览器在该 builder 页面上的所有标注与回复。在「近一月观点」和「时间线」中选中文本即可创建新的讨论。</p>
+          <h3 className="text-base font-semibold text-slate-800">团队对 @{builder.handle} 的讨论</h3>
+          <p className="mt-1 text-sm text-slate-500">下面汇总了整站里团队对 @{builder.handle} 相关内容的所有标注与回复。在「近一月观点」和「时间线」中选中文本即可创建新的讨论。</p>
           <div className="mt-4 space-y-3">
-            {annotations.length === 0 ? (
-              <EmptyTab tip="还没有讨论，先去其他 Tab 划一段话开个头吧～" />
+            {teamAnnotations.length === 0 ? (
+              <EmptyTab tip={`@${builder.handle} 还没有讨论，去其他 Tab 划一段话开个头吧～`} />
             ) : (
-              annotations.map((a) => (
+              teamAnnotations.map((a) => (
                 <div key={a.id} className="rounded-xl border border-slate-200 p-3">
                   <div className="rounded bg-slate-50 px-2 py-1 text-xs text-slate-600">「{a.quote}」</div>
                   <div className="mt-2 space-y-2">
