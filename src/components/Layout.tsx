@@ -4,7 +4,6 @@ import UserSwitcher from "./UserSwitcher";
 import SearchBar from "./SearchBar";
 import LoginDialog from "./LoginDialog";
 import { LOGIN_OPEN_EVENT } from "@/lib/auth";
-import { Sparkles } from "lucide-react";
 
 const NAV_LINKS = [
   { to: "/", label: "今日", end: true },
@@ -31,35 +30,69 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen bg-[hsl(220,30%,98%)] text-slate-800">
-      <header className="sticky top-0 z-20 border-b border-slate-200/80 bg-white/85 backdrop-blur">
-        <div className="mx-auto flex h-14 max-w-[1280px] items-center gap-6 px-6">
-          <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
-            <span className="grid h-7 w-7 place-items-center rounded-md bg-gradient-to-br from-indigo-500 to-emerald-500 text-white shadow-sm">
-              <Sparkles className="h-4 w-4" />
-            </span>
-            <span>AI Builders Daily</span>
-          </Link>
-          <nav className="flex items-center gap-1 text-sm">
-            {NAV_LINKS.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                end={link.end}
-                className={({ isActive }) =>
-                  `rounded-full px-3 py-1.5 transition ${
-                    isActive
-                      ? "bg-indigo-50 text-indigo-700 font-medium"
-                      : "text-slate-600 hover:bg-slate-50"
-                  }`
-                }
+      <header className="sticky top-0 z-20 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+        {/* Row 1 · Masthead: left meta / centered serif logo / right meta */}
+        <div className="mx-auto max-w-[1280px] px-6 pt-4 pb-3 border-b border-slate-200/70">
+          <div className="grid grid-cols-[minmax(140px,1fr)_auto_minmax(140px,1fr)] items-center gap-4">
+            <div className="text-[10.5px] uppercase tracking-[0.22em] text-slate-500 leading-tight">
+              {new Date().toISOString().slice(0, 10).split("-").join(" · ")}
+              <br />
+              <span className="text-slate-400">
+                {new Date().toLocaleDateString("en-US", { weekday: "short" })} · Daily Dispatch
+              </span>
+            </div>
+            <Link to="/" className="flex flex-col items-center leading-none group">
+              <span className="mb-1 text-[10.5px] uppercase tracking-[0.28em] text-slate-500">
+                Est. 2026 · Team Edition
+              </span>
+              <span
+                className="flex items-baseline gap-2 font-[700] tracking-tight text-slate-900 group-hover:opacity-90"
+                style={{ fontFamily: "'Fraunces', serif" }}
               >
-                {link.label}
-              </NavLink>
-            ))}
-          </nav>
-          <div className="ml-auto flex items-center gap-3">
-            <SearchBar initial={initialQuery} />
-            <UserSwitcher />
+                <span className="text-[28px] leading-none font-[800]">AI Builders</span>
+                <span
+                  className="text-[28px] leading-none font-[700] italic"
+                  style={{ color: "#c26949" }}
+                >
+                  Daily
+                </span>
+              </span>
+            </Link>
+            <div className="text-right text-[10.5px] uppercase tracking-[0.18em] text-slate-500 leading-tight">
+              Created by <span className="text-slate-800 font-semibold not-italic tracking-[0.05em]">Bao Nan</span>
+              <br />
+              <span className="text-slate-400">
+                Sources <span className="text-slate-700 font-medium not-italic tracking-[0.05em]">Zara Zhang</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Row 2 · Underline tabs + search + avatar */}
+        <div className="mx-auto max-w-[1280px] px-6">
+          <div className="flex h-12 items-center justify-between gap-6">
+            <nav className="flex items-center gap-6 text-sm h-full">
+              {NAV_LINKS.map((link) => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  end={link.end}
+                  className={({ isActive }) =>
+                    `relative flex h-full items-center border-b-2 pt-[2px] font-medium transition ${
+                      isActive
+                        ? "border-indigo-600 text-indigo-700 font-semibold"
+                        : "border-transparent text-slate-600 hover:text-slate-900"
+                    }`
+                  }
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </nav>
+            <div className="flex items-center gap-3">
+              <SearchBar initial={initialQuery} />
+              <UserSwitcher />
+            </div>
           </div>
         </div>
       </header>
@@ -67,7 +100,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="mt-12 border-t border-slate-200 bg-white/60 py-6 text-center text-xs text-slate-400">
-        AI Builders Daily · 内部协作原型 · 数据来自 follow-builders feed-x.json · {new Date().getFullYear()}
+        AI Builders Daily · Created by Bao Nan · Sources: Zara Zhang · {new Date().getFullYear()}
       </footer>
       <LoginDialog open={loginOpen} onClose={() => setLoginOpen(false)} />
     </div>

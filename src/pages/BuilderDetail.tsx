@@ -32,23 +32,53 @@ export default function BuilderDetail() {
 
   // 页头 badge "本机已标注 N 处": 保留原语义 (只算当前博主详情页上的标注)
   const annotations = useAnnotations((a) => a.targetPath === `/builders/${builder?.handle}`);
-  // 团队讨论 Tab: 拉全站标注、按 builder handle 过滤 (支持在文摘/时间线/详情页所有地方
+
+  // 收集这位 builder 名下的全部 tweet ID (用于团队讨论 Tab 里，把在「今日」「历史」
+  // 等页面上对这条 tweet 打的标注也识别为「针对该 builder」的讨论)。
+  const builderTweetIds = useMemo(() => {
+    const ids = new Set<string>();
+    if (!builder) return ids;
+    for (const t of todayTweets) {
+      if (t.handle.toLowerCase() === builder.handle.toLowerCase()) ids.add(t.id);
+    }
+    for (const d of digests) {
+      for (const t of d.tweets) {
+        if (t.handle.toLowerCase() === builder.handle.toLowerCase()) ids.add(t.id);
+      }
+    }
+    return ids;
+  }, [builder, todayTweets, digests]);
+
+  // 团队讨论 Tab: 拉全站标注、按 builder 相关性过滤 (支持在文摘/时间线/详情页所有地方
   // 讨论到这个 builder 的都在此汇总)。判定规则:
   //   1. targetPath 精确等于 /builders/{handle} (来自博主详情页)
-  //   2. 或 blockId 中含 -{handle}- 片段 (来自 TweetCard 的 builder-{handle}- 前缀 / 摘要块)
-  //   3. 或 blockId 里含 -at-{handle} 之类的手写标记
+  //   2. 或 blockId 中含 handle 片段 (来自 BuilderDetail timeline 的 builder-{handle}- 前缀 / 观点块)
+  //   3. 或 blockId 中含 builder 名下任何一条 tweet 的 ID (覆盖「今日」「历史」「按日期文摘」等页面
+  //      里对该 builder tweet 打的标注 —— 它们的 blockId 形如 today-tweet-<tid>-en /
+  //      2026-07-01-<tid>-zh / digest-<date>-<tid>-hl 等)
   // 目的: 让"团队讨论"真实反映"团队对 @handle 的讨论"，而不是只有 profile 页那一小撮。
   const teamAnnotations = useAnnotations((a) => {
     const h = builder?.handle;
     if (!h) return false;
     if (a.targetPath === `/builders/${h}`) return true;
     const bid = a.blockId || "";
-    return (
+    // handle 命中 (BuilderDetail 页面上的标注)
+    if (
       bid === `builder-${h}` ||
       bid.startsWith(`builder-${h}-`) ||
       bid.includes(`-${h}-`) ||
       bid.endsWith(`-${h}`)
-    );
+    ) {
+      return true;
+    }
+    // tweet ID 命中 (今日/历史/文摘页对该 builder 的 tweet 打的标注)
+    for (const tid of builderTweetIds) {
+      if (!tid) continue;
+      if (bid.includes(`-${tid}-`) || bid.includes(`-${tid}`) || bid === tid) {
+        return true;
+      }
+    }
+    return false;
   });
 
   // Record a visit when this profile mounts (per builder, per mount).
