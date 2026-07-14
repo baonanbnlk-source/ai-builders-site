@@ -34,7 +34,7 @@ const BASE_URL =
   process.env.LLM_BASE_URL ?? "https://ark.cn-beijing.volces.com/api/v3";
 const MODEL = process.env.LLM_MODEL ?? "doubao-1-5-pro-32k-250115";
 const BATCH_SIZE = Number(process.env.LLM_BATCH_SIZE ?? 6);
-const MAX_NEW = Number(process.env.LLM_MAX_NEW ?? 80);
+const MAX_NEW = Number(process.env.LLM_MAX_NEW ?? 500);
 const TIMEOUT_MS = Number(process.env.LLM_TIMEOUT_MS ?? 120000);
 
 function loadJson(p, fallback) {
