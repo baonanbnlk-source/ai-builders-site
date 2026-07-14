@@ -27,6 +27,14 @@
       "blockId": "today-2026-07-02-2072447453622882338-zh",
       "quote": "没有人工智能我以前是怎么工作的啊？",
       "createdAt": 1782980134
+    },
+    {
+      "id": "098e8c26c1d14356",
+      "userId": 2,
+      "targetPath": "/digest/today",
+      "blockId": "today-2026-07-13-2076495156757577895-zh",
+      "quote": "只有利好，没有削弱！",
+      "createdAt": 1783997258
     }
   ],
   "comments": [
@@ -37,6 +45,15 @@
       "parentId": null,
       "body": "hhh",
       "createdAt": 1782980134,
+      "reactions": []
+    },
+    {
+      "id": "9db6706628fd449d",
+      "annotationId": "098e8c26c1d14356",
+      "userId": 2,
+      "parentId": null,
+      "body": "1",
+      "createdAt": 1783997258,
       "reactions": []
     }
   ],
